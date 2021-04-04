@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/icofont.min.css"> -->
     <link rel="stylesheet" href="assets/css/template.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Batimento De Ponto</title>
 </head>
 

@@ -107,7 +107,7 @@ aside.sidebar {
     align-items: center;
     grid-area: sidebar;
     box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.4);
-    background-color: #FFF;
+    background-color: #F3F4F6
 }
 
 aside.sidebar .menu {
@@ -123,16 +123,15 @@ aside.sidebar .menu ul.nav-list {
 
 aside.sidebar .menu li.nav-item {
     margin: 0;
-    padding: 10px 10px 10px 25px;
+    /* padding: 10px 10px 10px 25px; */
 }
 
 aside.sidebar .menu li.nav-item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #F3F4F6
 }
 
 aside.sidebar .menu li.nav-item a {
     font-size: 1.2rem;
-    color: #555;
     text-decoration: none;
 }
 

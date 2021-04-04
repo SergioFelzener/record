@@ -1,40 +1,43 @@
-<aside class="sidebar">
-    <nav class="menu mt-3">
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a href="day_records.php">
-                    <i class="icofont-ui-check mr-2"></i>
-                    Registro
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="monthly_report.php">
-                    <i class="icofont-chart-histogram  mr-2"></i>
-                    Relatorio
-                </a>
-            </li>
-            <?php if ($user->is_admin) : ?>
+<aside class="sidebar inset-y-0 left-0 w-64 px-8 py-4 bg-gray-900 border-r overflow-auto">
+    <img class="" src="../assets/img/gray100pink.png">
+    <nav class="menu ml-6">
+        <div class="mt-2 -mx-7">
+            <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="manager_report.php">
-                        <i class="icofont-chart-histogram mr-2"></i>
-                        Relatorio gerencial
+                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="day_records.php">
+                        <i class="material-icons mr-2">done_all</i>
+                        Registro
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="monthly_report.php">
+                    <i class="material-icons mr-2">trending_up</i>
+                        Relatorio
+                    </a>
+                </li>
+                <?php if ($user->is_admin) : ?>
+                    <li class="nav-item">
+                        <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="manager_report.php">
+                        <i class="material-icons mr-2">trending_up</i>
+                            Relatorio gerencial
+                        </a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="users.php">
+                        <i class="material-icons mr-2">trending_up</i>
+                            Usuários
+                        </a>
+                    </li>
+                <?php endif ?>
                 <li class="nav-item">
-                    <a href="users.php">
-                        <i class="icofont-user mr-2"></i>
-                        Usuários
+                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="notification.php">
+                    <i class="material-icons mr-2">trending_up</i>
+                        Notificações
                     </a>
                 </li>
-            <?php endif ?>
-            <li class="nav-item">
-                <a href="notification.php">
-                    <i class="icofont-ui-message mr-2"></i>
-                    Notificações
-                </a>
-            </li>
-        </ul>
+            </ul>
+        </div>
     </nav>
     <div class="sidebar-widgets">
         <div class="sidebar-widget">

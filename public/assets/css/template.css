@@ -131,7 +131,7 @@ aside.sidebar .menu li.nav-item:hover {
 }
 
 aside.sidebar .menu li.nav-item a {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     text-decoration: none;
 }
 
@@ -141,17 +141,12 @@ body.hide-sidebar aside.sidebar {
 
 aside.sidebar .sidebar-widgets {
     position: sticky;
-    bottom: 20px;
+    bottom: 5px;
 }
 
 aside.sidebar .sidebar-widget {
     display: flex;
     align-items: center;
-}
-
-aside.sidebar .sidebar-widget .icon {
-    font-size: 3.5rem;
-    margin: 2px 10px 2px 0px;
 }
 
 aside.sidebar .sidebar-widget .info {
@@ -167,7 +162,7 @@ aside.sidebar .sidebar-widget .info {
 }
 
 aside.sidebar .info .main {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 main.content {

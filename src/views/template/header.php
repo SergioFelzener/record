@@ -16,11 +16,11 @@
 <body class="">
     <header class="header">
         <div class="menu-toggle mx-3">
-            <i class="icofont-navigation-menu"></i>
+        <i class="material-icons mr-2">menu</i>
         </div>
         <div class="logo">
             <div class="card-head">
-                <img style="width:14rem;" src="../assets/img/logo9.png">
+                <!-- <img style="width:14rem;" src="../assets/img/logo9.png"> -->
             </div>
         </div>
         <div class="spacer">

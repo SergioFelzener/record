@@ -26,13 +26,24 @@ CREATE TABLE worrking_hours (
     CONSTRAINT cons_user_day UNIQUE (user_id, work_date)
 );
 
-CREATE TABLE notifications (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT(6),
-    message VARCHAR(255) NOT NULL,
+-- CREATE TABLE notifications (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     message VARCHAR(255) NOT NULL,
 
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
+--     FOREIGN KEY (user_id) REFERENCES users(id)
+-- );
+
+-- -- Criando Tabela PIVOT 
+-- CREATE TABLE user_notifications (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     user_id INT(6), 
+--     notification_id INT(6), 
+
+--     FOREIGN KEY (user_id) REFERENCES users(id)
+--     FOREIGN KEY (notification_id) REFERENCES notifications(id)
+
+
+-- );
 
 
 -- senha é a.

@@ -16,7 +16,7 @@
 <body class="">
     <header class="header">
         <div class="menu-toggle mx-3">
-        <i class="material-icons mr-2">menu</i>
+            <i class="material-icons mr-2">menu</i>
         </div>
         <div class="logo">
             <div class="card-head">
@@ -28,6 +28,7 @@
         </div>
         <div class="dropdown">
             <div class="dropdown-button">
+                <i class="material-icons mr-2">notifications_active</i>
                 <img class="avatar" src="<?= "http://www.gravatar.com/avatar.php?gravatar_id=" . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user" class="src">
                 <span class="ml-3 text-black">
                     <?= $_SESSION['user']->name ?>

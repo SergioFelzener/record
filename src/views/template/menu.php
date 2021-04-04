@@ -18,22 +18,28 @@
                 <?php if ($user->is_admin) : ?>
                     <li class="nav-item">
                         <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="manager_report.php">
-                            <i class="material-icons mr-2">trending_up</i>
+                            <i class="material-icons mr-2">leaderboard</i>
                             Relatorio gerencial
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="users.php">
-                            <i class="material-icons mr-2">trending_up</i>
+                            <i class="material-icons mr-2">group_add</i>
                             Usuários
                         </a>
                     </li>
                 <?php endif ?>
                 <li class="nav-item">
                     <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="notification.php">
-                        <i class="material-icons mr-2">trending_up</i>
+                        <i class="material-icons mr-2">report</i>
                         Notificações
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-green-50 hover:text-green-700 rounded-lg p-2" href="settings.php">
+                        <i class="material-icons mr-2">settings</i>
+                        Configuração
                     </a>
                 </li>
             </ul>

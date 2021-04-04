@@ -26,10 +26,9 @@ CREATE TABLE worrking_hours (
     CONSTRAINT cons_user_day UNIQUE (user_id, work_date)
 );
 
-CREATE TABLE chat (
+CREATE TABLE notifications (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT(6),
-    name VARCHAR(100) NOT NULL,
     message VARCHAR(255) NOT NULL,
 
     FOREIGN KEY (user_id) REFERENCES users(id)

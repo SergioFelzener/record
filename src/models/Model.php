@@ -1,5 +1,4 @@
 <?php
-
 // Criando a class Model que outras classes vao extender da Model
 
 class Model

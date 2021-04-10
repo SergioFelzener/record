@@ -1,7 +1,7 @@
 <?php
 
 Database::executeSQL('DELETE FROM working_hours');
-Database::executeSQL('DELETE FROM users WHERE id > 5');
+Database::executeSQL('DELETE FROM users WHERE id > 12');
 
 function getdayTemplateByOdds($regularRate, $extraRate, $lazyRate)
 {
@@ -67,7 +67,14 @@ $lastYear = strtotime('first day of last year');
 populateWorkingHours(1, date('Y-m-1'), 70, 20, 10);
 populateWorkingHours(2, date('Y-m-1', $lastYear), 50, 30, 20);
 populateWorkingHours(3, date('Y-m-d', $lastYear), 20, 75, 5);
-populateWorkingHours(4, date('Y-m-d', $lastYear), 20, 10, 70);
+populateWorkingHours(4, date('Y-m-d', $lastYear), 60, 10, 70);
+populateWorkingHours(5, date('Y-m-d', $lastYear), 10, 10, 70);
+populateWorkingHours(6, date('Y-m-d', $lastYear), 40, 20, 40);
+populateWorkingHours(7, date('Y-m-d', $lastYear), 90, 10, 0);
+populateWorkingHours(8, date('Y-m-d', $lastYear), 10, 20, 70);
+populateWorkingHours(9, date('Y-m-d', $lastYear), 30, 40, 30);
+populateWorkingHours(10, date('Y-m-d', $lastYear), 20, 10, 70);
+populateWorkingHours(11, date('Y-m-d', $lastYear), 70, 10, 20);
 
 echo "Tudo certo !";
 // print_r(getdayTemplateByOdds(10, 20, 70));

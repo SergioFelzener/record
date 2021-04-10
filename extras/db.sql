@@ -12,7 +12,7 @@ CREATE TABLE users (
     is_admin BOOLEAN NOT NULL DEFAULT false
 );
 
-CREATE TABLE worrking_hours (
+CREATE TABLE working_hours (
     id INT(6) AUTO_INCREMENT PRIMARY KEY,
     user_id INT(6),
     work_date DATE NOT NULL,

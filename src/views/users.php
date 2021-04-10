@@ -12,7 +12,7 @@
 
 
     <button class="bg-transparent shadow-lg mb-4 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2 border border-gray-400 hover:border-blue-400">
-        <a href="save_user.php">Novo usuario</a>
+        <a class="p-2" href="save_user.php">Novo usuario</a>
     </button>
 
 
@@ -63,13 +63,13 @@
                                         <div class="text-sm text-center text-gray-900"><?= $user->start_date ?></div>
                                         <div class="text-sm text-center text-red-300"><?= $user->end_date ?></div>
                                     </td>
-                                    <td class="px-6 py-4 text-center whitespace-nowrap">
+                                    <td class="px-8 py-6 text-center whitespace-nowrap">
                                         <?php if (!$user->end_date) : ?>
-                                            <span class="px-2 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            <span class="px-6 py-1 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 Active
                                             </span>
                                         <?php else : ?>
-                                            <span class="px-2 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-red-100 text-red-800">
+                                            <span class="px-6 py-1 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-red-100 text-red-800">
                                                 User OFF
                                             </span>
                                         <?php endif ?>
@@ -89,10 +89,10 @@
                                         <div class="inline-flex mt-4">
                                             <div class="ml-8">
                                                 <button class="bg-transparent shadow-lg mb-4 ml-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700 rounded-lg p-2 border border-gray-400 hover:border-green-400">
-                                                    <a href="save_user.php?update=<?= $user->id ?>">Editar</a>
+                                                    <a class="p-2" href="save_user.php?update=<?= $user->id ?>">Editar</a>
                                                 </button>
                                                 <button class="bg-transparent shadow-lg mb-4 mr-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-700 rounded-lg p-2 border border-gray-400 hover:border-red-400">
-                                                    <a href="?delete=<?= $user->id ?>">Apagar</a>
+                                                    <a class="p-2" href="?delete=<?= $user->id ?>">Apagar</a>
                                                 </button>
                                             </div>
                                         </div>

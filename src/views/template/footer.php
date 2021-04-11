@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="p-2">
-        <img style="width:13rem;" src="../assets/img/logopreto.png">
+        <img style="width:11rem;" src="../assets/img/logopreto.png">
     </div>
     
 </footer>

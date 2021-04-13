@@ -14,7 +14,7 @@
 <body class="bg-white">
 
     <form class="form-login" action="#" method="POST">
-        <div class="login-card card shadow-lg border-1 border-gray-400">
+        <div class="login-card card shadow-2xl border-1 border-gray-400">
 
             <div class="card-header bg-black">
                 <img class="w-80 mx-auto mt-0" src="../assets/img/logopreto.png">

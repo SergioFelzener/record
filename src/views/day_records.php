@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="card-footer d-flex justify-content-center">
-            <a href="innout.php" class="btn btn-success btn-lg">
+            <a href="record.php" class="btn btn-success btn-lg">
                 <i class="icofont-check mr-1 ">
                     Bater Ponto
                 </i>
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <form class="form-group mt-5"action="innout.php" method="POST">
+    <form class="form-group mt-5"action="record.php" method="POST">
     <div class="input-group no-border">
         <input class="form-control col-lg-2 col-md-2" type="time" step="1" name="forcedTime" placeholder="informe o horário para simular">
         <button class="btn btn-sm btn-primary ml-3">

@@ -16,8 +16,8 @@
     <form class="form-login" action="#" method="POST">
         <div class="login-card card shadow-2xl border-1 border-gray-400">
 
-            <div class="card-header bg-black">
-                <img class="w-80 mx-auto mt-0" src="../assets/img/logopreto.png">
+            <div class="card-header bg-blue-900">
+                <img class="w-80 mx-auto mt-0" src="../assets/img/logorec.png">
             </div>
             <div class="flex justify-center content-center px-3 pt-2">
                 <h2 class="text-xl font-black">LOGIN</h2>
@@ -35,7 +35,7 @@
                     <div class="invalid-feedback"><?= $errors['password'] ?></div>
                 </div>
             </div>
-            <div class="card-footer bg-black">
+            <div class="card-footer bg-blue-900">
              
                     <span class="text-gray-200">Sistema de ®egistro de ponto.</span>
                 

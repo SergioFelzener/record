@@ -20,7 +20,7 @@
         </div>
         <div class="logo">
             <div class="card-head">
-                <!-- <img style="width:14rem;" src="../assets/img/logo9.png"> -->
+                <img style="width:14rem;" src="../assets/img/logorec.png">
             </div>
         </div>
         <div class="spacer">

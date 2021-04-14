@@ -3,7 +3,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(175, 171, 171);
+    background-image: url(../img/backg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    top: 0;
+    background-size: cover;
 }
 
 .form-login {

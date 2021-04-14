@@ -140,10 +140,7 @@ body.hide-sidebar aside.sidebar {
     display: none;
 }
 
-aside.sidebar .sidebar-widgets {
-    position: sticky;
-    bottom: 5px;
-}
+aside.sidebar .sidebar-widgets {}
 
 aside.sidebar .sidebar-widget {
     display: flex;
@@ -202,8 +199,8 @@ main.content .content-title h2 {
 
 footer.footer {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     padding-right: 20px;
     font-size: 1.2rem;
     grid-area: footer;

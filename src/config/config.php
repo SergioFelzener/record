@@ -3,7 +3,7 @@
 // definindo timezone da aplicação
 date_default_timezone_set('America/Sao_Paulo');
 // ajustando a parte específica de tempo passando 4 parametros para portugues Brasil
-setlocale(LC_TIME, 'pt-BR', 'pt-BR.uft-8', 'portuguese');
+setlocale(LC_TIME, 'pt_BR', 'pt_BR.uft-8', 'portuguese');
 
 // constantes gerais
 define('DAILY_TIME', 60 * 60 * 8);

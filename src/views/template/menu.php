@@ -45,7 +45,7 @@
             </ul>
         </div>
     </nav>
-    <div class="sidebar-widgets position-absolute">
+    <div class="sidebar-widgets">
         <div class="sidebar-widget">
             <i class="material-icons mr-2 text-blue-600">query_builder</i>
             <div class="info">
@@ -69,9 +69,7 @@
                 <span class="label text-muted">Hora de Saída</span>
             </div>
         </div>
-
     </div>
-
 </aside>
 
 <script>

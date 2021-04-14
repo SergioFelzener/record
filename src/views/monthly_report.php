@@ -12,7 +12,7 @@
 
     <div class="flex items-center justify-center">
         <div class="bg-white p-4 rounded">
-            <div class="md:grid md:grid-cols-2 md:gap-4 space-y-4 md:space-y-0 mb-2">
+            <div class="md:grid md:grid-cols-2 md:gap-4 space-y-4 md:space-y-0">
                 <div class="shadow border rounded-lg">
                     <div class="flex items-center space-x-4 p-4">
                         <div class="flex items-center p-4 bg-blue-500 text-white rounded-lg">
@@ -47,9 +47,9 @@
         </div>
     </div>
 
-    <div class="antialiased font-sans bg-gray-50">
-        <div class="container px-4 sm:px-8">
-            <div class="py-8">
+    <div class="antialiased font-sans bg-white">
+        <div class="container sm:px-8">
+            <div>
                 <div class="my-2 flex sm:flex-row flex-col">
                     <div class="flex flex-row sm:mb-0">
                         <div class="relative">
@@ -78,7 +78,7 @@
                                         ?>
                                     </select>
                                     <button class="btn btn-primary bg-gray-50 rounded p-1 ml-2 hover:text-blue-600">
-                                        <i class="material-icons">person_search</i>
+                                        <i class="material-icons">search</i>
                                     </button>
                                 </div>
                             </form>

@@ -31,7 +31,7 @@
                     </li>
                 <?php endif ?>
                 <li class="nav-item">
-                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="notification.php">
+                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="notifications.php">
                         <i class="material-icons mr-2">report</i>
                         Notificações
                     </a>

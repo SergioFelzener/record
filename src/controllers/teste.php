@@ -1,4 +1,8 @@
 <?php 
+
+session_start();
+requireValidSession();
+
 //controller temporario
 // testes 
 // echo "controller temporario<br>";
@@ -47,9 +51,44 @@
 
 // print_r(getLastDayOfMonth('2021-02'));
 
-echo User::getCount(['raw' => 'id >= 2']);
+echo Notifications::getCount(['raw' => 'id']);
 
 
+// $user = $_SESSION['user'];
+echo "<br>";
+echo "<br>";
+// print_r($user);
+
+$user = $_SESSION['user'];
+$user_id = $user->id;
+
+echo "ID do Usuário:", $user_id;
+
+echo "<br>";
+echo "<br>";
+
+$notifications =[];
+$notifications = Notifications::get();
+var_dump($notifications);
+
+echo "<br>";
+echo "<br>";
+$notifications2 = Notifications::getUserNotification(['user_id' => 1]);
+var_dump($notifications2);
+
+echo "<br>";
+echo "<br>";
+
+$user = User::getOne(['id' => $user_id]);
+
+var_dump($user);
+
+// foreach($notifications as $not) { 
+
+
+    
+
+// }
 
 
 ?>

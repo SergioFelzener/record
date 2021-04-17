@@ -81,7 +81,7 @@
             <div class="flex justify-between">
                 <div class="">
                     <button class="shadow text-sm font-medium bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700 rounded-lg p-2 border border-gray-400 hover:border-red-400">Salvar</button>
-                    <button href="/users.php" class="no-underline shadow mb-4 mr-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-700 rounded-lg p-2 border border-gray-400 hover:border hover:border-red-400">Cancelar</button>
+                    <a href="/users.php" class="no-underline shadow mb-4 mr-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-700 rounded-lg p-2 border border-gray-400 hover:border hover:border-red-400">Cancelar</a>
                 </div>
             </div>
         </div>

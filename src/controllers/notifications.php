@@ -3,18 +3,37 @@ session_start();
 requireValidSession();
 
 $exception = null;
+
 $user = $_SESSION['user'];
 $selectedUserId = $user->id;
 $activeNotifications = [];
+$user = User::getOne(['id' => $selectedUserId]);
 
-$obj = new Notifications($selectedUserId);
+$notifications = Notifications::getUserNotification(['user_id' => $selectedUserId]);
 
-$result = $obj->getActiveNotifications($selectedUserId);
+if (isset($_GET['delete'])) {
+    try {
+        User::deleteById($_GET['delete']);
+        addSuccessMsg('Notificação excluida com sucesso');
+    } catch (Exception $e) {
+        if (stripos($e->getMessage(), 'FOREIGN KEY')) {
+            addErrorMsg('Notificação não pode ser excluida');
+        } else {
+            $exception = $e;
+        }
+    }
+}
 
 
-echo $result;
+// var_dump($notifications);
+
+// $result = $obj->getActiveNotifications($selectedUserId);
+
+
+// echo $result;
 
 
 
 
-loadTemplateView('notifications');
+// loadTemplateView('notifications', ['exception' => $exception, 'notifications' => $activeNotifications]);
+loadTemplateView('notifications', ['notifications' => $notifications, 'user' => $user]);

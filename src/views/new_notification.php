@@ -45,7 +45,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-10">
                         <label for="msg">Mensagem</label>
-                        <textarea id="msg" name="msg" placeholder="Digite a mensagem" class="shadow form-control <?= $errors['msg'] ? 'is-invalid' : '' ?> " rows="4"></textarea>
+                        <textarea id="msg" name="msg" placeholder="Digite a mensagem" class="shadow form-control <?= $errors['msg'] ? 'is-invalid' : '' ?> " rows="4" required></textarea>
                         <div class="invalid-feedback">
                             <?= $errors['msg'] ?>
                         </div>

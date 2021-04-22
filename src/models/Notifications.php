@@ -39,6 +39,12 @@ class Notifications extends Model
         return parent::insert();
     }
 
+    public function update() { 
+        $this->validate();
+        $this->active = false;
+        return parent::update(); 
+    }
+
     private function validate()
     {
         $errors = [];

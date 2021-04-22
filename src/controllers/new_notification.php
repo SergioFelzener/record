@@ -26,6 +26,8 @@ if (count($_POST) > 0) {
 
 }
 
+
+
 // if (count($_POST) > 0) {
 //     $notification = new Notifications($_POST);
 //     $notification->insert();

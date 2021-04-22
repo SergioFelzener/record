@@ -1,15 +1,16 @@
-<?php 
+<?php
 require_once(realpath(MODEL_PATH . '/Model.php'));
 
-class Notifications extends Model {
+class Notifications extends Model
+{
 
     protected static $tableName = 'notifications';
-    protected static $colunms = [
-        'id', 
+    protected static $columns = [
+        'id',
         'user_id',
-        'title', 
-        'msg', 
-        'active', 
+        'title',
+        'msg',
+        'active',
         'date'
     ];
 
@@ -28,24 +29,26 @@ class Notifications extends Model {
         return $objects;
     }
 
-    public function insert() {
+    public function insert()
+    {
+
         $this->validate();
+        $this->active = true;
+        $this->date = date('Y/m/d');
+
         return parent::insert();
     }
 
-    private function validate() {
+    private function validate()
+    {
         $errors = [];
 
-        if(!$this->title) {
+        if (!$this->title) {
             $errors['title'] = 'Título é um campo obrigatório.';
         }
 
-        if(!$this->msg) {
+        if (!$this->msg) {
             $errors['msg'] = 'mensagem é um campo obrigatório.';
-        }
-
-        if(count($errors) > 0) {
-            throw new ValidationException($errors);
         }
     }
 }

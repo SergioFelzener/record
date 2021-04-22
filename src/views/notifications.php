@@ -70,12 +70,10 @@
                                     <td>
                                         <div class="inline-flex mt-4">
                                             <div class="ml-8">
-                                                <button class="bg-transparent shadow-lg mb-4 ml-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2 border border-gray-400 hover:border-blue-400">
-                                                    <a class="p-2" href=".php?update=<?= $notification->id ?>">Marcar como Lida</a>
-                                                </button>
-                                                <button class="bg-transparent shadow-lg mb-4 mr-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-700 rounded-lg p-2 border border-gray-400 hover:border-red-400">
-                                                    <a class="p-2" href="?delete=<?= $notification->id ?>">Apagar</a>
-                                                </button>
+                                                <button class="">
+                                                    <a href=".php?update=<?= $notification->id ?>" class="p-2 bg-transparent shadow-lg mb-4 ml-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 rounded-lg border border-gray-400 hover:border-blue-400">Marcar como Lida</a>
+                                                
+                                                    <a href="?delete=<?= $notification->id ?>" class="bg-transparent shadow-lg mb-4 mr-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-700 rounded-lg p-2 border border-gray-400 hover:border-red-400">Apagar</a>
                                             </div>
                                         </div>
                                     </td>

@@ -1,5 +1,4 @@
 <?php 
-require_once(realpath(MODEL_PATH . '/Model.php'));
 
 class User extends Model {
 
@@ -19,6 +18,7 @@ class User extends Model {
     }
 
     public function insert() { 
+
         $this->validate();
         $this->is_admin = $this->is_admin ? 1 : 0; 
         if(!$this->end_date) $this->end_date = null;

@@ -52,7 +52,7 @@
                                 <!-- <p class="text-xs text-green-500 leading-tight">▲ 8.2%</p> -->
                             </div>
                             <div class="absolute bottom-0 inset-x-0">
-                                <canvas id="chart3" height="<?=$hoursInMonth?>"></canvas>
+                                <canvas id="chart3" height="<?=($hoursInMonth / 10)?>"></canvas>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ $notifications = Notifications::getUserNotification(['user_id' => $selectedUserI
 
 if (isset($_GET['delete'])) {
     try {
-        User::deleteById($_GET['delete']);
+        Notifications::deleteById($_GET['delete']);
         addSuccessMsg('Notificação excluida com sucesso');
     } catch (Exception $e) {
         if (stripos($e->getMessage(), 'FOREIGN KEY')) {
@@ -36,4 +36,4 @@ if (isset($_GET['delete'])) {
 
 
 // loadTemplateView('notifications', ['exception' => $exception, 'notifications' => $activeNotifications]);
-loadTemplateView('notifications', ['notifications' => $notifications, 'user' => $user]);
+loadTemplateView('notifications', ['notifications' => $notifications, 'user' => $user, 'exception' => $exception]);

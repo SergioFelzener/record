@@ -3,6 +3,49 @@
 session_start();
 requireValidSession();
 
+echo "Testes de sistema:"; 
+echo "<br>";
+echo "<hr>";
+echo "<br>";
+
+$user = new User(['name' => 'teste', 'email' => 'teseeee@teste.com']);
+print_r($user);
+echo "<br>";
+$user->email = 'teste@alterandoemail.com';
+echo "novo email : ";
+print_r($user->email);
+echo "<br>";
+print_r($user);
+
+echo "<br>";
+echo "<br>";
+print_r(User::get(['id'=> 1], 'name, email'));
+
+echo "<hr>";
+echo "<br>";
+
+$notification = new Notifications (["title" => "Teste de notificação", "msg" => "Mensagem de notificação"]);
+print_r($notification);
+echo "<br>";
+$notification->msg = 'Alterando conteúdo da notificação'; 
+echo "novo conteúdo da Notificação : ";
+print_r($notification->msg);
+echo "<br>";
+print_r($notification);
+echo "<hr>";
+echo "<br>";
+
+echo "<br>";
+print_r(Notifications::get(['user_id'=> 1], 'title, msg'));
+
+echo "<hr>";
+echo "<br>";
+
+echo "<br>";
+echo "FIM!"
+
+
+
 //controller temporario
 // testes 
 // echo "controller temporario<br>";
@@ -51,37 +94,48 @@ requireValidSession();
 
 // print_r(getLastDayOfMonth('2021-02'));
 
-echo Notifications::getCount(['raw' => 'id']);
+// echo Notifications::getCount(['raw' => 'id']);
 
+
+// // $user = $_SESSION['user'];
+// echo "<br>";
+// echo "<br>";
+// // print_r($user);
 
 // $user = $_SESSION['user'];
-echo "<br>";
-echo "<br>";
-// print_r($user);
+// $user_id = $user->id;
 
-$user = $_SESSION['user'];
-$user_id = $user->id;
+// echo "ID do Usuário:", $user_id;
 
-echo "ID do Usuário:", $user_id;
+// echo "<br>";
+// echo "<br>";
 
-echo "<br>";
-echo "<br>";
+// $notifications =[];
+// $notifications = Notifications::get();
+// var_dump($notifications);
 
-$notifications =[];
-$notifications = Notifications::get();
-var_dump($notifications);
+// echo "<br>";
+// echo "<br>";
+// $notifications2 = Notifications::getUserNotification(['user_id' => 1]);
+// var_dump($notifications2);
 
-echo "<br>";
-echo "<br>";
-$notifications2 = Notifications::getUserNotification(['user_id' => 1]);
-var_dump($notifications2);
+// echo "<br>";
+// echo "<br>";
 
-echo "<br>";
-echo "<br>";
+// $user = User::getOne(['id' => $user_id]);
 
-$user = User::getOne(['id' => $user_id]);
+// var_dump($user);
 
-var_dump($user);
+// echo "<br>";
+// echo "<hr>";
+
+// echo Notifications::getResultSetFromSelect(['title' => 'Titulo'], 'titulo');
+
+
+
+
+
+// var_dump($sql);
 
 // foreach($notifications as $not) { 
 
@@ -89,6 +143,15 @@ var_dump($user);
     
 
 // }
+
+// $user = new User(["name" => 'SergioTeste', "email" => 'teste@sergio.com']);
+
+// echo $user->getResultSetFromSelect();
+
+
+
+// TESTE DE NOTIFICAções
+
 
 
 ?>

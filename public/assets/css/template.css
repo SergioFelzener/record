@@ -2,7 +2,7 @@ body {
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-template-rows: 90px 1fr 90px;
-    grid-template-areas: "header header" "sidebar content" "sidebar footer";
+    grid-template-areas: "header header" "sidebar content" "footer footer";
     height: 100vh;
     margin: 0;
     background-color: #E9E9E9;
@@ -81,6 +81,7 @@ header.header .dropdown-content ul {
 header.header .dropdown-content a {
     display: flex;
     align-items: center;
+    justify-content: right;
     text-decoration: none;
     color: #222;
     padding: 7px;
@@ -103,9 +104,6 @@ header.header .avatar {
 }
 
 aside.sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     grid-area: sidebar;
     box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.4);
     background-color: #F3F4F6;
@@ -120,6 +118,11 @@ aside.sidebar .menu ul.nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+aside.sidebar nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 aside.sidebar .menu li.nav-item {
@@ -140,7 +143,9 @@ body.hide-sidebar aside.sidebar {
     display: none;
 }
 
-aside.sidebar .sidebar-widgets {}
+aside.sidebar .sidebar-widgets {
+    justify-self: flex-end;
+}
 
 aside.sidebar .sidebar-widget {
     display: flex;
@@ -180,7 +185,7 @@ main.content .content-title {
 }
 
 main.content .content-title .icon {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 main.content .content-title h1 {

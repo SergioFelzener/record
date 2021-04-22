@@ -17,12 +17,12 @@
         <div class="container sm:px-8">
 
             <form action="#" method="post">
-              
-                    <input type="text" name="id" value="<?= $id ?>">
-               
+                <?php if ($id) : ?>
+                    <input type="hidden" name="id" value="<?= $id ?>">
+                <?php endif ?>
                 <div class="input-group col-md-4">
                     <?php if ($user->is_admin) : ?>
-                        <select name="user" class="form-control mr-2 mb-4 border border-gray-300 shadow-xl rounded-lg py-1 pl-2" placeholder="Selecione o usuário...">
+                        <select name="user_id" class="form-control mr-2 mb-4 border border-gray-300 shadow-xl rounded-lg py-1 pl-2" placeholder="Selecione o usuário...">
                             <option value="">Selecione o usuário</option>
                             <?php
                             foreach ($users as $user) {
@@ -36,7 +36,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="title">Titulo</label>
-                        <input type="text" id="title" name="title" value="<?= $title ?>" placeholder="Informe Título" class="shadow form-control <?= $errors['title'] ? 'is-invalid' : '' ?> " value="<?= $title ?>">
+                        <input type="text" id="title" name="title" value="<?= $title ?>" placeholder="Informe Título" class="form-control <?= $errors['title'] ? 'is-invalid' : '' ?> "required>
                         <div class="invalid-feedback">
                             <?= $errors['title'] ?>
                         </div>

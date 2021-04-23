@@ -57,7 +57,7 @@
                                         <div class="text-sm text-center text-gray-900"><?= $notification->title ?></div>
                                     </td>
                                     <td class="px-8 py-6 text-center whitespace-nowrap">
-                                        <?php if ($notification->active == true) : ?>
+                                        <?php if ($notification->active == 1) : ?>
                                             <span class="px-4 py-1 inline-flex border border-green-200 shadow-md text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 Active
                                             </span>

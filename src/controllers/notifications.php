@@ -32,7 +32,8 @@ if (isset($_GET['delete'])) {
 if (isset($_GET['update'])) { 
     $notification = Notifications::getOne(['id' => $_GET['update']]);
     $notificationData = $notification->getValues();
-    $notification->active = 0;
+    $notification->active = null;
+    $notification->date = null;
     print_r($notification);
     $notification->update();
     

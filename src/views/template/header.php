@@ -20,7 +20,7 @@
         </div>
         <div class="logo">
             <div class="card-head">
-                <img style="width:14rem;" src="../assets/img/logorecfinal.png">
+                <img style="width:14rem;" src="../assets/img/logorecordgood.png">
             </div>
         </div>
         <div class="spacer">
@@ -28,7 +28,7 @@
         </div>
         <div class="dropdown mr-8">
             <div class="dropdown-button">
-                <i class="material-icons mr-8">notifications_active</i>
+                <!-- <i class="material-icons mr-8">notifications_active</i> -->
                 <img class="avatar" src="<?= "http://www.gravatar.com/avatar.php?gravatar_id=" . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user" class="src">
                 <span class="ml-3 text-white">
                     <?= $_SESSION['user']->name ?>

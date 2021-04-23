@@ -1,7 +1,6 @@
-
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
 </head>
 
 
@@ -18,7 +17,8 @@
     include(TEMPLATE_PATH . "/messages.php");
 
     ?>
-    <div class="card">
+
+    <div class="flex">
         <div class="card-header">
             <h3><?= $today ?></h3>
             <p class="mb-0">Os batimentos efetuados hj</p>
@@ -33,23 +33,23 @@
                 <span class="record">Saída 2: <?= $workingHours->time4 ?? '---' ?></span>
             </div>
         </div>
-        <div class="card-footer d-flex justify-content-center">
-            <a href="record.php" class="btn btn-success btn-lg">
+        <div class="flex">
+            <a href="record.php" class="bg-transparent shadow-lg mb-4 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2 border border-gray-400 hover:border-blue-400">
                 <i class="icofont-check mr-1 ">
-                    Bater Ponto
+                    Registrar Ponto
                 </i>
             </a>
         </div>
     </div>
     <?php if ($user->is_admin) : ?>
-    <form class="form-group mt-5"action="record.php" method="POST">
-    <div class="input-group no-border">
-        <input class="form-control col-lg-2 col-md-2" type="time" step="1" name="forcedTime" placeholder="informe o horário para simular">
-        <button class="btn btn-sm btn-primary ml-3">
-            Simular Ponto
-        </button>
-    </div>
+        <form class="form-group mt-5" action="record.php" method="POST">
+            <div class="input-group no-border">
+                <input class="form-control col-lg-2 col-md-2" type="time" step="1" name="forcedTime" placeholder="informe o horário para simular">
+                <button class="btn btn-sm btn-primary ml-3">
+                    Simular Ponto
+                </button>
+            </div>
 
-    </form>
+        </form>
     <?php endif ?>
 </main>

@@ -41,7 +41,7 @@
                                     <td class="px-6 py-4 whitespace-nowrap">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 h-10 w-10">
-                                                <img class="h-10 w-10 rounded-full" src="../assets/img/robot.jpg" alt="">
+                                                <img class="h-10 w-10 shadow-lg border border-gray-200 rounded-full" src="../assets/img/robot.jpg" alt="">
                                             </div>
                                             <div class="ml-4">
                                                 <div class="text-sm font-medium text-gray-900">
@@ -58,11 +58,11 @@
                                     </td>
                                     <td class="px-8 py-6 text-center whitespace-nowrap">
                                         <?php if ($notification->active == true) : ?>
-                                            <span class="px-6 py-1 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            <span class="px-4 py-1 inline-flex border border-green-200 shadow-md text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 Active
                                             </span>
                                         <?php else : ?>
-                                            <span class="px-6 py-1 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+                                            <span class="px-4 py-1 inline-flex text-xs border border-blue-200 shadow-md text-center leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                                                 Lida
                                             </span>
                                         <?php endif ?>

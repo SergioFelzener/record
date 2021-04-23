@@ -13,9 +13,9 @@
     <div class="flex items-center justify-center">
         <div class="bg-gray-50 p-4 rounded">
             <div class="md:grid md:grid-cols-2 md:gap-4 space-y-4 md:space-y-0">
-                <div class="shadow border rounded-lg">
+                <div class="shadow-md border rounded-lg">
                     <div class="flex items-center space-x-4 p-4">
-                        <div class="flex items-center p-4 bg-blue-400 text-white rounded-lg">
+                        <div class="flex items-center p-4 bg-purple-400 text-white rounded-lg">
                             <i class="material-icons">more_time</i>
                         </div>
                         <div class="flex-1">
@@ -28,9 +28,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="shadow border rounded-lg">
+                <div class="shadow-md border rounded-lg">
                     <div class="flex items-center space-x-4 p-4">
-                        <div class="flex items-center p-4 bg-blue-400 text-white rounded-lg">
+                        <div class="flex items-center p-4 bg-purple-400 text-white rounded-lg">
                             <i class="material-icons">restore</i>
                         </div>
                         <div class="flex-1">
@@ -59,7 +59,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text mr-0 ml-1" id="inputGroup-sizing-sm">Selecione o usuário</span>
                                         </div>
-                                        <select name="user" class="form-control mr-2 border border-gray-300 shadow-xl rounded-lg py-1 pl-2" placeholder="Selecione o usuário...">
+                                        <select name="user" class="form-control mr-2 border border-gray-400 shadow-md rounded-lg py-1 pl-2" placeholder="Selecione o usuário...">
                                             <option value="">Selecione o usuário</option>
                                             <?php
                                             foreach ($users as $user) {
@@ -69,7 +69,7 @@
                                             ?>
                                         </select>
                                     <?php endif ?>
-                                    <select name="period" class="form-control mr-2 border border-gray-300 shadow-xl rounded-lg py-1 pl-2" placeholder="Selecione o período...">
+                                    <select name="period" class="form-control mr-2 border border-gray-400 shadow-md rounded-lg py-1 pl-2" placeholder="Selecione o período...">
                                         <?php
                                         foreach ($periods as $key => $month) {
                                             $selected = $key === $selectedPeriod ? 'selected' : '';
@@ -77,7 +77,7 @@
                                         }
                                         ?>
                                     </select>
-                                    <button class="btn btn-primary bg-gray-50 rounded p-1 ml-2 hover:text-blue-600">
+                                    <button class="btn btn-primary bg-gray-50 rounded p-1 ml-2 hover:text-purple-600">
                                         <i class="material-icons">search</i>
                                     </button>
                                 </div>
@@ -90,22 +90,22 @@
                         <table class="min-w-full leading-normal">
                             <thead>
                                 <tr>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Dia
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Entrada 1
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Saída 1
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Entrada 2
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Saída 2
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Saldo
                                     </th>
                                 </tr>

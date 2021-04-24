@@ -33,7 +33,7 @@ class Notifications extends Model
     {
 
         $this->validate();
-        $this->active = true;
+        $this->active = 1;
         $this->date = date('Y/m/d');
 
         return parent::insert();
@@ -41,7 +41,8 @@ class Notifications extends Model
 
     public function update() { 
         $this->validate();
-        $this->active = false;
+        $this->active = 0;
+        $this->date = date('Y/m/d');
         return parent::update(); 
     }
 
@@ -55,6 +56,10 @@ class Notifications extends Model
 
         if (!$this->msg) {
             $errors['msg'] = 'mensagem é um campo obrigatório.';
+        }
+
+        if(count($errors) > 0) {
+            throw new ValidationException($errors);
         }
     }
 }

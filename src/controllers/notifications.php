@@ -33,9 +33,10 @@ if (isset($_GET['update'])) {
     $notification = Notifications::getOne(['id' => $_GET['update']]);
     $notificationData = $notification->getValues();
     $notification->active = null;
-    $notification->date = null;
-    print_r($notification);
+    $notification->date = date('Y/m/d');
+    // print_r($notification);
     $notification->update();
+    header('Location: notifications.php');
     
     // $notification->update();
 }

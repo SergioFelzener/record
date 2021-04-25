@@ -2,6 +2,9 @@
 
 session_start();
 requireValidSession(true);
+$user = $_SESSION['user'];
+$selectedUserId = $user->id;
+$notActive = Notifications::getResultSetFromSelect(['user_id' => $selectedUserId, 'active' => 1], 'active');
 
 $exception = null;
 
@@ -27,4 +30,4 @@ foreach ($users as $user) {
     }
 }
 
-loadTemplateView('users', ['users' => $users, 'exception' => $exception]);
+loadTemplateView('users', ['users' => $users, 'exception' => $exception, 'notActive' => $notActive]);

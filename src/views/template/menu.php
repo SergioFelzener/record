@@ -31,9 +31,16 @@
                     </li>
                 <?php endif ?>
                 <li class="nav-item">
-                    <a class="flex text-sm font-medium text-gray-700 bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="notifications.php">
-                        <i class="material-icons mr-2">report</i>
+                    <a class="flex items-center text-sm font-medium text-gray-700 bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="notifications.php">
+                        <i class="material-icons mr-2">notifications</i>
                         Notificações
+                        <?php if ($notActive->num_rows > 0) : ?>
+                        <div class="flex">
+                            <span class="-mr-3 z-0 border border-red-600 shadow-lg rounded-full bg-gray-100 w-5 h-5 mb-2 ml-4 text-red-500 hover:bg-red-50 hover:text-red-900 text-sm">
+                                <p class="items-center content-center"><?= $notActive->num_rows?></p>
+                            </span>
+                        </div>
+                        <?php endif ?>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -63,7 +70,7 @@
         </div>
         <div class="division my-2"></div>
         <div class="sidebar-widget">
-        <i class="material-icons mr-2 text-red-600">timer_off</i>
+            <i class="material-icons mr-2 text-red-600">timer_off</i>
             <div class="info">
                 <span class="main text-red-600" <?= $activeClock == 'exitTime' ? 'active-clock' : '' ?>><?= $exitTime ?></span>
                 <span class="label text-muted">Hora de Saída</span>

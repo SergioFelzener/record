@@ -135,6 +135,13 @@ aside.sidebar .menu li.nav-item {
     /* padding: 10px 10px 10px 25px; */
 }
 
+aside.sidebar .menu li.nav-item p {
+    font-size: 10px;
+    margin-left: 6.7px;
+    margin-top: -1px;
+    /* padding: 10px 10px 10px 25px; */
+}
+
 aside.sidebar .menu li.nav-item:hover {
     background-color: #F3F4F6
 }

@@ -14,6 +14,7 @@ $activeNotifications = [];
 $user = User::getOne(['id' => $selectedUserId]);
 
 $notifications = Notifications::getUserNotification(['user_id' => $selectedUserId]);
+$notActive = Notifications::getResultSetFromSelect(['user_id' => $selectedUserId, 'active' => 1], 'active');
 
 if (isset($_GET['delete'])) {
     try {
@@ -53,4 +54,4 @@ if (isset($_GET['update'])) {
 
 
 // loadTemplateView('notifications', ['exception' => $exception, 'notifications' => $activeNotifications]);
-loadTemplateView('notifications', ['notifications' => $notifications, 'user' => $user, 'exception' => $exception]);
+loadTemplateView('notifications', ['notifications' => $notifications, 'notActive' => $notActive, 'user' => $user, 'exception' => $exception]);

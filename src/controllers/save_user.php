@@ -2,6 +2,10 @@
 session_start();
 requireValidSession(true);
 
+$user = $_SESSION['user'];
+$selectedUserId = $user->id;
+$notActive = Notifications::getResultSetFromSelect(['user_id' => $selectedUserId, 'active' => 1], 'active');
+
 $exception = null;
 $userData = [];
 
@@ -29,4 +33,4 @@ if(count($_POST) === 0 && isset($_GET['update'])) {
     }
 }
 
-loadTemplateView('save_user', $userData + ['exception' => $exception]);
+loadTemplateView('save_user', $userData + ['exception' => $exception, 'notActive' => $notActive]);

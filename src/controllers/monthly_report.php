@@ -6,6 +6,8 @@ $currentDate = new DateTime();
 
 $user = $_SESSION['user'];
 $selectedUserId = $user->id;
+$notActive = Notifications::getResultSetFromSelect(['user_id' => $selectedUserId, 'active' => 1], 'active');
+
 $users = null;
 if($user->is_admin) {
     $users = User::get();
@@ -58,4 +60,5 @@ loadTemplateView('monthly_report', [
     'periods' => $periods,
     'selectedUserId' => $selectedUserId,
     'users' => $users,
+    'notActive' => $notActive,
 ]);

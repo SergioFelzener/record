@@ -36,7 +36,11 @@ echo "<hr>";
 echo "<br>";
 
 echo "<br>";
-print_r(Notifications::get(['user_id'=> 1], 'title, msg'));
+
+echo "<hr>";
+
+$notActive = Notifications::getResultSetFromSelect(['user_id'=> 1, 'active' => 1], 'active');
+print_r($notActive->num_rows);
 
 echo "<hr>";
 echo "<br>";

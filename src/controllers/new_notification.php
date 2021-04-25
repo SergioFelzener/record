@@ -3,6 +3,10 @@
 session_start();
 requireValidSession(true);
 
+$user = $_SESSION['user'];
+$selectedUserId = $user->id;
+$notActive = Notifications::getResultSetFromSelect(['user_id' => $selectedUserId, 'active' => 1], 'active');
+
 $exception = null;
 $userData = [];
 $users = User::get();
@@ -66,4 +70,4 @@ if (count($_POST) > 0) {
 // }
 
 
-loadTemplateView('new_notification', ['users' => $users, 'exception' => $exception]);
+loadTemplateView('new_notification', ['users' => $users, 'exception' => $exception, 'notActive' => $notActive]);

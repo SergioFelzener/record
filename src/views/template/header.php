@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/comum.css">
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/icofont.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/icofont.min.css"> -->
     <link rel="stylesheet" href="assets/css/template.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="assets/js/confirm.js"></script>
     <title>Batimento De Ponto</title>
 </head>
 

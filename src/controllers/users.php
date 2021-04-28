@@ -5,8 +5,13 @@ requireValidSession(true);
 $user = $_SESSION['user'];
 $selectedUserId = $user->id;
 $notActive = Notifications::getResultSetFromSelect(['user_id' => $selectedUserId, 'active' => 1], 'active');
-
+// $setDelete ='';
 $exception = null;
+
+// if (isset($_GET['save'])) {
+//     $setDelete = $_GET['save'];
+//     echo "ID DO USUÁRIO : " . $setDelete;  
+// }
 
 if (isset($_GET['delete'])) {
     try {
@@ -21,7 +26,10 @@ if (isset($_GET['delete'])) {
     }
 }
 
+
 $users = User::get();
+
+
 
 foreach ($users as $user) {
     $user->start_date = (new DateTime($user->start_date))->format('d/m/Y');
@@ -30,4 +38,4 @@ foreach ($users as $user) {
     }
 }
 
-loadTemplateView('users', ['users' => $users, 'exception' => $exception, 'notActive' => $notActive]);
+loadTemplateView('users', ['users' => $users, 'setDelete' => $setDelete, 'exception' => $exception, 'notActive' => $notActive]);

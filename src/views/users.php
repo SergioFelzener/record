@@ -92,7 +92,7 @@
                                                     <a class="p-2" href="save_user.php?update=<?= $user->id ?>">Editar</a>
                                                 </button>
                                                 <button class="bg-transparent shadow-lg mb-4 mr-3 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-700 rounded-lg p-2 border border-gray-400 hover:border-red-400">
-                                                    <a class="p-2" href="?delete=<?= $user->id ?>">Apagar</a>
+                                                    <a data-confirm="Tem certeza que deseja apagar esse item?" class="p-2" href="?delete=<?= $user->id ?>">Apagar</a>
                                                 </button>
                                             </div>
                                         </div>

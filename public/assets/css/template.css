@@ -89,8 +89,8 @@ header.header .dropdown-content a {
     justify-content: right;
     text-decoration: none;
     color: #222;
-    padding: 7px;
-    font-size: 2.1rem;
+    padding: 4px;
+    font-size: 1.1rem;
 }
 
 header.header .dropdown-content a:hover {

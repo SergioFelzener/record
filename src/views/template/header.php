@@ -24,7 +24,7 @@
         </div>
         <div class="logo">
             <div class="card-head">
-                <img style="width:14rem;" src="../assets/img/logorecordgood.png">
+                <img style="width:18rem;" src="../assets/img/logorecordgood.png">
             </div>
         </div>
         <div class="spacer">

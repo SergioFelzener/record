@@ -65,11 +65,11 @@
                                     </td>
                                     <td class="px-8 py-6 text-center whitespace-nowrap">
                                         <?php if (!$user->end_date) : ?>
-                                            <span class="px-6 py-1 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            <span class="px-6 py-1 inline-flex border border-green-600 shadow-lg text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 Active
                                             </span>
                                         <?php else : ?>
-                                            <span class="px-6 py-1 inline-flex text-xs text-center leading-5 font-semibold rounded-full bg-red-100 text-red-800">
+                                            <span class="px-6 py-1 inline-flex border border-red-600 shadow-md text-xs text-center leading-5 font-semibold rounded-full bg-red-100 text-red-800">
                                                 User OFF
                                             </span>
                                         <?php endif ?>

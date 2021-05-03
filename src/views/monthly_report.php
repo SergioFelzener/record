@@ -85,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto mb-6">
                     <div class="inline-block min-w-full shadow-xl rounded-lg overflow-hidden border border-gray-200">
                         <table class="min-w-full leading-normal">
                             <thead>

@@ -58,11 +58,11 @@
                                     </td>
                                     <td class="px-8 py-6 text-center whitespace-nowrap">
                                         <?php if ($notification->active == 1) : ?>
-                                            <span class="px-4 py-1 inline-flex border border-green-200 shadow-md text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            <span class="px-4 py-1 inline-flex border border-green-600 shadow-md text-xs text-center leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 Active
                                             </span>
                                         <?php else : ?>
-                                            <span class="px-4 py-1 inline-flex text-xs border border-blue-200 shadow-md text-center leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+                                            <span class="px-4 py-1 inline-flex text-xs border border-blue-600 shadow-md text-center leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                                                 Lida
                                             </span>
                                         <?php endif ?>

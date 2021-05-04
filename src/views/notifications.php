@@ -126,6 +126,9 @@
                                                 <i class="material-icons text-gray-300 hover:text-green-500 ml-6">email</i>
                                             </buttom>
                                         </div>
+                                        <div name="notification" style="display:none;">
+                                            <p><?=$notification->msg?></p>
+                                        </div>
                                     </td>
                                     <td class="px-8 py-6 text-center whitespace-nowrap">
                                         <?php if ($notification->active == 1) : ?>
@@ -161,6 +164,9 @@
 <script>
         const modal = document.querySelector('.main-modal');
         const closeButton = document.querySelectorAll('.modal-close');
+
+        var not = document.getElementsByName('notification');
+        console.log(not);
 
         const modalClose = () => {
             modal.classList.remove('fadeIn');

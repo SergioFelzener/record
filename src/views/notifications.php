@@ -68,8 +68,8 @@
                     </div>
                 </div>
                 <!--Body-->
-                <div class="my-5">
-                    <p></p>
+                <div id="notification_msg" class="my-5">
+                    
                 </div>
                 <!--Footer-->
                 <div class="flex justify-end pt-2">
@@ -103,7 +103,7 @@
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
                             <?php foreach ($notifications as $notification) : ?>
-                                <tr>
+                                <tr> 
                                     <td class="px-6 py-4 whitespace-nowrap">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 h-10 w-10">
@@ -122,11 +122,11 @@
                                     <td class="flex px-6 py-4 whitespace-nowrap justify-between">
                                         <div class="text-sm text-center text-gray-900"><?= $notification->title ?></div>
                                         <div>
-                                            <buttom onclick="openModal()">
+                                            <buttom onclick="openModal('#not_<?=$notification->id?>')">
                                                 <i class="material-icons text-gray-300 hover:text-green-500 ml-6">email</i>
                                             </buttom>
                                         </div>
-                                        <div name="notification" style="display:none;">
+                                        <div id="not_<?=$notification->id?>" name="notification" style="display:none;">
                                             <p><?=$notification->msg?></p>
                                         </div>
                                     </td>
@@ -176,10 +176,13 @@
             }, 500);
         }
 
-        const openModal = () => {
+        const openModal = ($not) => {
             modal.classList.remove('fadeOut');
             modal.classList.add('fadeIn');
             modal.style.display = 'flex';
+            let notification_msg = document.querySelector($not).innerHTML;
+            document.querySelector("#notification_msg").innerHTML = notification_msg;
+ 
         }
 
         for (let i = 0; i < closeButton.length; i++) {

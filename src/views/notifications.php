@@ -123,7 +123,7 @@
                                         <div class="text-sm text-center text-gray-900"><?= $notification->title ?></div>
                                         <div>
                                             <buttom onclick="openModal('#not_<?=$notification->id?>')">
-                                                <i class="material-icons text-gray-300 hover:text-green-500 ml-6">email</i>
+                                                <i style="cursor: pointer;" class="material-icons text-gray-300 hover:text-green-500 ml-6">email</i>
                                             </buttom>
                                         </div>
                                         <div id="not_<?=$notification->id?>" name="notification" style="display:none;">
@@ -165,8 +165,8 @@
         const modal = document.querySelector('.main-modal');
         const closeButton = document.querySelectorAll('.modal-close');
 
-        var not = document.getElementsByName('notification');
-        console.log(not);
+        // var not = document.getElementsByName('notification');
+        // console.log(not);
 
         const modalClose = () => {
             modal.classList.remove('fadeIn');
@@ -176,11 +176,11 @@
             }, 500);
         }
 
-        const openModal = ($not) => {
+        const openModal = (not) => {
             modal.classList.remove('fadeOut');
             modal.classList.add('fadeIn');
             modal.style.display = 'flex';
-            let notification_msg = document.querySelector($not).innerHTML;
+            let notification_msg = document.querySelector(not).innerHTML;
             document.querySelector("#notification_msg").innerHTML = notification_msg;
  
         }

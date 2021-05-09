@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Record - Time to Clock In</title>
 </head>
 
@@ -35,12 +36,20 @@
                     <div class="invalid-feedback"><?= $errors['password'] ?></div>
                 </div>
             </div>
-            <div class="card-footer bg-blue-400">
-             
-                    <span class="text-white">Sistema de ®egistro de ponto.</span>
-                
-                <button class="float-right px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Entrar</button>
+            <div class="flex justify-end ">
+                <a style="text-decoration: none;"class="text-sm font-medium text-gray-700 bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="forgot_pass.php">
+                    <i class="material-icons mr-2">password</i>
+                    Esqueci minha senha
+                </a>
             </div>
+            <div class="card-footer bg-blue-400">
+
+                <span class="text-white">Sistema de ®egistro de ponto.</span>
+
+                <button class="float-right px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Entrar</button>
+                
+            </div>
+            
         </div>
     </form>
     <?= $texto ?>

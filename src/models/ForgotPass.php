@@ -1,25 +1,31 @@
 <?php
 
-class ForgotPass extends Model { 
+class ForgotPass extends Model
+{
 
-    public function validate() { 
+    public function validate()
+    {
         $errors = [];
 
-        if (!$this->email) { 
+        if (!$this->email) {
             $errors['email'] = 'E-Mail é um campo obrigatório';
         }
 
-        if(count($errors) > 0) { 
+        if (count($errors) > 0) {
             throw new ValidationException($errors);
         }
-
     }
 
-    public function generateTokenAccess ($user) { 
+    public function generateTokenAccess($user)
+    {
         // print_r($user);
-        
-        if($user->email) { 
-            $token = sha1($user->id.$user->password);
+
+        if ($user->end_date) {
+            throw new AppException('Usuário está OFF da empresa (Senha não pode ser redefinida)');
+        }
+
+        if ($user->email) {
+            $token = sha1($user->id . $user->password);
             $sim = "Existe email";
             echo "<br>";
             echo "<hr>";
@@ -28,34 +34,20 @@ class ForgotPass extends Model {
             echo "<hr>";
             // print_r($token);
             return $token;
-        }else { 
+        } else {
             $nao = "Email nao esta na base";
             // echo $nao;
 
         }
-        if ($user) { 
-            // $token = sha1();
-        
-            if($user->end_date) {
-                throw new AppException('Usuário está OFF da empresa (Senha não pode ser redefinida)');
-            }
-
-        }
 
         throw new AppException('Usuário Não Encontrado !!');
-
     }
 
-    public function checkForgot() { 
-        $userEmail = User::getOne(['email' => $this->email]);
+    public function checkForgot()
+    {
         $this->validate();
-        $this->generateTokenAccess($userEmail);
-        
-        
-        
-
+        $user = User::getOne(['email' => $this->email]);
+        // print_r($user);
+        $this->generateTokenAccess($user);
     }
-
-
-
 }

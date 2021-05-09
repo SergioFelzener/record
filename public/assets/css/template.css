@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 225px 1fr;
     grid-template-rows: 90px 1fr 90px;
     grid-template-areas: "header header" "sidebar content" "sidebar footer";
     height: 100vh;
@@ -112,7 +112,7 @@ aside.sidebar {
     grid-area: sidebar;
     box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.4);
     background-color: #F3F4F6;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 aside.sidebar .menu {
@@ -179,7 +179,7 @@ aside.sidebar .sidebar-widget .info {
 }
 
 aside.sidebar .info .main {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 
 main.content {

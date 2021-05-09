@@ -1,4 +1,4 @@
-<aside class="sidebar inset-y-0 left-0 w-64 px-8 py-2 bg-gray-900 border-r overflow-auto">
+<aside class="sidebar inset-y-0 left-0 w-56 px-4 py-1 bg-gray-900 border-r overflow-auto">
     <!-- <img class="" src="../assets/img/bluegray100.png"> -->
     <nav class="menu ml-6">
         <div class=" -mx-7">

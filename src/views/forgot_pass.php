@@ -31,10 +31,10 @@
             </div>
             <div class="card-footer bg-blue-400">
              
-                    <span class="text-white">Redefinir senha Teste</span>
+                    <span class="text-white"></span>
                 
                 <button class="float-right px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Enviar</button>
-                <a style="text-decoration: none;" href="login.php" class="float-right mr-4 px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Voltar</a>
+                <a style="text-decoration: none;" href="login.php" class="float-right mr-1 px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Voltar</a>
             </div>
         </div>
     </form>

@@ -36,7 +36,7 @@
                         Notificações
                         <?php if ($notActive->num_rows > 0) : ?>
                         <div class="flex">
-                            <span class="-mr-3 z-0 border border-white font-extrabold shadow-lg rounded-full bg-red-600 w-5 h-5 mb-2 ml-4 text-white hover:bg-red-200 hover:text-red-900 text-sm">
+                            <span class="-mr-4 z-0 font-extrabold shadow-lg rounded-full bg-red-600 w-5 h-5 mb-2 ml-4 text-white hover:bg-red-200 hover:text-red-900 text-sm">
                                 <p class="items-center content-center"><?= $notActive->num_rows?></p>
                             </span>
                         </div>

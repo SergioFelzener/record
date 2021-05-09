@@ -19,13 +19,13 @@
 
 <body class="">
     <header class="header">
-        <div class="menu-toggle mx-3">
-            <i class="material-icons mr-2">menu</i>
-        </div>
         <div class="logo">
             <div class="card-head">
-                <img style="width:18rem;" src="../assets/img/logorecordgood.png">
+                <img style="width:12rem;" src="../assets/img/logoRecNew.png">
             </div>
+        </div>
+        <div class="menu-toggle">
+            <i style="font-size:1.8rem;" class="material-icons text-blue-500 ml-4">menu</i>
         </div>
         <div class="spacer">
 

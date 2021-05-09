@@ -27,9 +27,9 @@
             <div class="flex flex-col lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4">
 
                 <div class="w-full lg:w-1/2">
-                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time1 ? 'green-400' : 'gray-200'?> shadow-md">
+                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time1 ? 'green-400' : 'red-400'?> shadow-md">
                         <div class="flex items-center justify-items-center">
-                            <div class="items-center text-gray-400 mr-3">
+                            <div class="items-center text-<?= $workingHours->time1 ? 'blue-500' : 'gray-200'?> mr-3">
                                 <i style="font-size: 40px;" class="material-icons mr-2">logout</i>
                             </div>
                             <div class="flex flex-col justify-center">
@@ -41,9 +41,9 @@
                 </div>
 
                 <div class="w-full lg:w-1/2">
-                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time2 ? 'green-400' : 'gray-200'?> shadow-md">
+                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time2 ? 'green-400' : 'red-400'?> shadow-md">
                         <div class="flex items-center justify-items-center">
-                            <div class="items-center text-gray-400 mr-3">
+                            <div class="items-center text-<?= $workingHours->time2 ? 'blue-500' : 'gray-200'?> mr-3">
                                 <i style="font-size: 40px;" class="material-icons mr-2">restaurant</i>
                             </div>
                             <div class="flex flex-col justify-center">
@@ -59,9 +59,9 @@
             <div class="flex flex-col lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4">
 
                 <div class="w-full lg:w-1/2">
-                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time3 ? 'green-400' : 'gray-200'?> shadow-md">
+                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time3 ? 'green-400' : 'red-400'?> shadow-md">
                         <div class="flex items-center justify-items-center">
-                            <div class="items-center text-gray-400 mr-3">
+                            <div class="items-center text-<?= $workingHours->time3 ? 'blue-500' : 'gray-200'?> mr-3">
                                 <i style="font-size: 40px;" class="material-icons mr-2">logout</i>
                             </div>
                             <div class="flex flex-col justify-center">
@@ -73,9 +73,9 @@
                 </div>
 
                 <div class="w-full lg:w-1/2">
-                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time4 ? 'green-400' : 'gray-200'?> shadow-md">
+                    <div class="widget w-full p-4 rounded-lg bg-white border border-<?= $workingHours->time4 ? 'green-400' : 'red-400'?> shadow-md">
                         <div class="flex items-center justify-items-center">
-                            <div class="items-center text-gray-400 mr-3">
+                            <div class="items-center text-<?= $workingHours->time4 ? 'blue-500' : 'gray-200'?> mr-3">
                                 <i style="font-size: 40px;" class="material-icons mr-2">home</i>
                             </div>
                             <div class="flex flex-col justify-center">

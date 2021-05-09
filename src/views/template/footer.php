@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="p-2">
-        <img style="width:12rem;" src="../assets/img/logorecordgood.png">
+        <img style="width:12rem;" src="../assets/img/logoRecNew.png">
     </div>
     <div class="flex items-end justify-end fixed bottom-0 right-0 mb-3 mr-6 z-10">
         <div>

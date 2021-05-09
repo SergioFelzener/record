@@ -36,9 +36,9 @@
                     <div class="invalid-feedback"><?= $errors['password'] ?></div>
                 </div>
             </div>
-            <div class="flex justify-end ">
-                <a style="text-decoration: none;"class="text-sm font-medium text-red-500 mb-1 mr-2 bg-white text-gray-700 bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="forgot_pass.php">
-                    <i class="material-icons mr-2">vpn_key</i>
+            <div class="flex justify-end items-center justify-items-center">
+                    <i class="material-icons text-red-500 mb-1">lock_open</i>
+                <a style="text-decoration: none;"class="text-sm font-medium text-red-500 mb-1 mr-2 bg-white bg-gray-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="forgot_pass.php">
                     Esqueci minha senha
                 </a>
             </div>

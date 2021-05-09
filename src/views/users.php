@@ -4,7 +4,8 @@
     renderTitle(
         'Cadastro de usuários',
         'Mantenha os dados Atualizados',
-        'icofont-users'
+        'supervised_user_circle',
+       
     );
 
     include(TEMPLATE_PATH . "/messages.php");

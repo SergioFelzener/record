@@ -1,6 +1,6 @@
 <div class="content-title mb-4">
 <?php if($icon) { ?>
-    <i class="icon <?= $icon ?> mr-2"></i>
+    <i class="material-icons font-black text-4xl mr-4"><?= $icon ?></i>
 <?php } ?>
     <div>
         <h1><?= $title ?></h1>

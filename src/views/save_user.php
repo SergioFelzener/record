@@ -8,13 +8,13 @@
     renderTitle(
         'Cadastro de Usuário',
         'Crie e atualize o usuário',
-        'icofont-user'
+        'person_add'
     );
 
     include(TEMPLATE_PATH . "/messages.php");
     ?>
 
-    <form action="#" method="post">
+    <form action="#" method="post" enctype="multipart/form-data">
         <?php if ($id) : ?>
             <input type="hidden" name="id" value="<?= $id ?>">
         <?php endif ?>
@@ -41,6 +41,11 @@
                 <div class="invalid-feedback">
                     <?= $errors['password'] ?>
                 </div>
+            </div>
+            <div class="form-group col-md-6 mt-9">
+                <label for="photo">Foto : </label>
+                <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+                <input name="photo" type="file" />
             </div>
         </div>
         <div class="form-row">

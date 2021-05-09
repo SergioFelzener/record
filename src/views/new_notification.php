@@ -8,7 +8,8 @@
     renderTitle(
         'Nova Notificação',
         'Selecione o usuário a ser notificado',
-        'icofont-user'
+        'forward_to_inbox',
+     
     );
 
     include(TEMPLATE_PATH . "/messages.php");

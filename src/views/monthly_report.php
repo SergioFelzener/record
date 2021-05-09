@@ -5,7 +5,7 @@
     renderTitle(
         'Relatório Mensal',
         'Acompanhe seus batimentos',
-        'icofont-look'
+        'trending_up'
     );
 
     ?>

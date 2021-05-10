@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 225px 1fr;
+    grid-template-columns: 220px 1fr;
     grid-template-rows: 90px 1fr 90px;
     grid-template-areas: "header header" "sidebar content" "sidebar footer";
     height: 100vh;
@@ -112,7 +112,7 @@ header.header .avatar {
 aside.sidebar {
     grid-area: sidebar;
     box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.4);
-    background-color: #60A5FA;
+    background-color: #1D4ED8;
     font-size: 15px;
 }
 

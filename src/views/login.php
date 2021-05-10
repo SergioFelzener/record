@@ -46,7 +46,7 @@
 
                 <span class="text-black">Sistema de ®egistro de ponto.</span>
 
-                <button class="float-right px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Entrar</button>
+                <button class="float-right px-4 shadow-2xl text-sm bg-blue-800 text-white hover:bg-blue-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-blue-800">Entrar</button>
                 
             </div>
             

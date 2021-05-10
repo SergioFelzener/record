@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="menu-toggle">
-            <i style="font-size:1.8rem;" class="material-icons text-blue-500 ml-4">menu</i>
+            <i style="font-size:1.8rem;" class="material-icons text-blue-700 ml-4">menu</i>
         </div>
         <div class="spacer">
 

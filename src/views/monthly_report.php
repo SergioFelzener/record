@@ -15,7 +15,7 @@
             <div class="md:grid md:grid-cols-2 md:gap-4 space-y-4 md:space-y-0">
                 <div class="shadow-md border rounded-lg">
                     <div class="flex items-center space-x-4 p-4">
-                        <div class="flex items-center p-4 bg-purple-400 text-white rounded-lg">
+                        <div class="flex items-center p-4 bg-blue-700 text-white rounded-lg">
                             <i class="material-icons">more_time</i>
                         </div>
                         <div class="flex-1">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="shadow-md border rounded-lg">
                     <div class="flex items-center space-x-4 p-4">
-                        <div class="flex items-center p-4 bg-purple-400 text-white rounded-lg">
+                        <div class="flex items-center p-4 bg-blue-700 text-white rounded-lg">
                             <i class="material-icons">restore</i>
                         </div>
                         <div class="flex-1">
@@ -90,22 +90,22 @@
                         <table class="min-w-full leading-normal">
                             <thead>
                                 <tr>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700 text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Dia
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700  text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Entrada 1
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700  text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Saída 1
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700  text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Entrada 2
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700  text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Saída 2
                                     </th>
-                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-purple-400 text-center text-xs font-semibold text-white uppercase tracking-wider">
+                                    <th class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700  text-center text-xs font-semibold text-white uppercase tracking-wider">
                                         Saldo
                                     </th>
                                 </tr>

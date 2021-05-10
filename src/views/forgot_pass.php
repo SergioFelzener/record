@@ -15,8 +15,8 @@
     <form class="form-login" action="#" method="POST">
         <div class="login-card card shadow-2xl border-1 border-blue-900">
 
-            <div class="card-header bg-blue-400">
-                <img class="w-80 mx-auto mt-0" src="../assets/img/logorecordgood.png">
+            <div class="card-header bg-gray-100">
+                <img class="w-80 mx-auto mt-0" src="../assets/img/logoRecNew.png">
             </div>
             <div class="flex justify-center content-center px-3 pt-2">
                 <h2 class="text-xl font-black">REDEFINIR SENHA</h2>
@@ -29,12 +29,12 @@
                     <div class="invalid-feedback"><?= $errors['email'] ?></div>
                 </div>
             </div>
-            <div class="card-footer bg-blue-400">
+            <div class="card-footer bg-gray-100">
              
                     <span class="text-white"></span>
                 
-                <button class="float-right px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Enviar</button>
-                <a style="text-decoration: none;" href="login.php" class="float-right mr-1 px-4 shadow-2xl text-sm bg-purple-800 text-white hover:bg-purple-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-purple-800">Voltar</a>
+                <button class="float-right px-4 shadow-2xl text-sm bg-blue-800 text-white hover:bg-blue-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-blue-800">Enviar</button>
+                <a style="text-decoration: none;" href="login.php" class="float-right mr-1 px-4 shadow-2xl text-sm bg-blue-800 text-white hover:bg-blue-400  rounded-lg p-2 border border-gray-200 hover:text-black hover:border-blue-800">Voltar</a>
             </div>
         </div>
     </form>

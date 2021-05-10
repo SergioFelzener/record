@@ -17,7 +17,7 @@
     <form class="form-login" action="#" method="POST">
         <div class="login-card card shadow-2xl border-1 border-blue-900">
 
-            <div class="card-header bg-gray-300">
+            <div class="card-header bg-gray-100">
                 <img class="w-60 mx-auto mt-0" src="../assets/img/logoRecNew.png">
             </div>
             <div class="flex justify-center content-center px-3 pt-2">
@@ -42,7 +42,7 @@
                     Esqueci minha senha
                 </a>
             </div>
-            <div class="card-footer bg-gray-300">
+            <div class="card-footer bg-gray-100">
 
                 <span class="text-black">Sistema de ®egistro de ponto.</span>
 

@@ -34,7 +34,7 @@
             <div class="dropdown-button">
                 <!-- <i class="material-icons mr-8">notifications_active</i> -->
                 <img class="avatar" src="<?= "http://www.gravatar.com/avatar.php?gravatar_id=" . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user" class="src">
-                <span class="ml-3 text-white">
+                <span class="ml-3 text-black">
                     <?= $_SESSION['user']->name ?>
                 </span>
                 <i class="icofont-simple-down ml-2"></i>

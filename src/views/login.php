@@ -21,7 +21,7 @@
                 <img class="w-60 mx-auto mt-0" src="../assets/img/logoRecNew.png">
             </div>
             <div class="flex justify-center content-center px-3 pt-2">
-                <h2 class="text-xl font-black">LOGIN</h2>
+                <h2 class="text-xl font-black">LOGIN TESTE WEB</h2>
             </div>
             <div class="card-body">
                 <?php include(TEMPLATE_PATH . '/messages.php') ?>

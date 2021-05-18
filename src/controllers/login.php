@@ -14,7 +14,7 @@ if (count($_POST) > 0 ) {
         // echo "Logado {$user->name} com sucesso"; 
 
     } catch(AppException $e) { 
-        echo "ERRO NO LOGIN"; 
+        
         $exception = $e; 
     }
 }

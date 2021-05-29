@@ -1,7 +1,7 @@
 <?php
 
 Database::executeSQL('DELETE FROM working_hours');
-Database::executeSQL('DELETE FROM users WHERE id > 12');
+Database::executeSQL('DELETE FROM users WHERE id > 100');
 
 function getdayTemplateByOdds($regularRate, $extraRate, $lazyRate)
 {

@@ -42,22 +42,22 @@
                             </div>
                             <div class="grid grid-cols-6 gap-6 mt-4">
                                 <div class="col-span-6 sm:col-span-2">
-                                <div id="printPass"></div>
-                                <div id="printPowerPass"></div>
                                     <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
-                                    <input type="password" name="password" id="password" onkeyup="powerPass()"class="<?= $errors['password'] ? 'is-invalid' : '' ?> p-2 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm border border-gray-200 sm:text-sm rounded-md">
+                                    <input type="password" name="password" id="password" onkeyup="validatePowerPass()"class="<?= $errors['password'] ? 'is-invalid' : '' ?> p-2 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm border border-gray-200 sm:text-sm rounded-md" minlength="8" maxlength="10">
                                     <div class="invalid-feedback text-red-600 ml-1" style="font-size:10px;">
                                         <?= $errors['password'] ?>
                                     </div>
+                                    <div id="powerError"></div>
                                 </div>
                             </div>
                             <div class="grid grid-cols-6 gap-6 mt-4">
                                 <div class="col-span-6 sm:col-span-2">
                                     <label for="confirm_password" class="block text-sm font-medium text-gray-700">Confirma Senha</label>
-                                    <input type="password" name="confirm_password" id="confirm_password" class="<?= $errors['confirm_password'] ? 'is-invalid' : '' ?> p-2 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm border border-gray-200 sm:text-sm rounded-md">
+                                    <input type="password" name="confirm_password" id="confirm_password" onkeyup="validateConfirmPowerPass()" class="<?= $errors['confirm_password'] ? 'is-invalid' : '' ?> p-2 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm border border-gray-200 sm:text-sm rounded-md">
                                     <div class="invalid-feedback text-red-600 ml-1" style="font-size:10px;">
                                         <?= $errors['confirm_password'] ?>
                                     </div>
+                                    <div id="powerConfirmError"></div>
                                 </div>
                             </div>
                             <div class="grid grid-cols-6 gap-6 mt-4">

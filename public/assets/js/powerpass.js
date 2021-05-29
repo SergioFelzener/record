@@ -26,7 +26,7 @@ function validatePowerPass() {
 function showPower(power) {
 
     if (power <= 15) {
-        document.getElementById("powerError").innerHTML = '<div class="mt-2 shadow w-full bg-grey-light"><div class="bg-white text-xs leading-none py-1 text-center text-red-500" style="width: 100%">utilize letras maiúsculas e caracters especiais</div></div>';
+        document.getElementById("powerError").innerHTML = '<div class="mt-2 shadow w-full bg-grey-light"><div class="bg-white text-xs leading-none py-1 text-center text-red-500" style="width: 100%">utilize letras maiúsculas e caracters especiais/minimo 8 caracteres</div></div>';
     } else if (power < 30) {
         document.getElementById("powerError").innerHTML = '<div class="mt-2 shadow w-full bg-grey-light"><div class="bg-red-500 text-xs leading-none py-1 text-center text-white" style="width: 25%">fraca</div></div>';
     } else if ((power >= 30) && (power < 50)) {
@@ -68,7 +68,7 @@ function validateConfirmPowerPass() {
 function showConfirmPower(power2) {
 
     if (power2 <= 15) {
-        document.getElementById("powerConfirmError").innerHTML = '<div class="mt-2 shadow w-full bg-grey-light"><div class="bg-white text-xs leading-none py-1 text-center text-red-500" style="width: 100%">utilize letras maiúsculas e caracters especiais</div></div>';
+        document.getElementById("powerConfirmError").innerHTML = '<div class="mt-2 shadow w-full bg-grey-light"><div class="bg-white text-xs leading-none py-1 text-center text-red-500" style="width: 100%">utilize letras maiúsculas e caracters especiais/minimo 8 caracteres</div></div>';
     } else if (power2 < 30) {
         document.getElementById("powerConfirmError").innerHTML = '<div class="mt-2 shadow w-full bg-grey-light"><div class="bg-red-500 text-xs leading-none py-1 text-center text-white" style="width: 25%">fraca</div></div>';
     } else if ((power2 >= 30) && (power2 < 50)) {

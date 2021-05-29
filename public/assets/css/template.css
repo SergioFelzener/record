@@ -30,12 +30,13 @@ header.header {
 
 header.header .logo {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     flex-basis: 250px;
     height: 100%;
+    padding: 0px;
 }
 
 header.header .menu-toggle {

@@ -59,11 +59,11 @@ class User extends Model {
         }
 
         if(!$this->password) {
-            $errors['password'] = 'Senha é um campo abrigatório.';
+            $errors['password'] = 'Senha é um campo obrigatório.';
         }
 
         if(!$this->confirm_password) {
-            $errors['confirm_password'] = 'Confirmação de Senha é um campo abrigatório.';
+            $errors['confirm_password'] = 'Confirmação de Senha é um campo obrigatório.';
         }
 
         if($this->password && $this->confirm_password 

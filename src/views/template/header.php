@@ -19,14 +19,15 @@
 
 <body class="">
     <header class="header">
+        <div class="menu-toggle">
+            <i style="font-size:1.8rem;" class="material-icons text-blue-700 ml-8">menu</i>
+        </div>
         <div class="logo">
             <div class="card-head">
-                <img style="width:12rem;" src="../assets/img/logoRecNew.png">
+                <img style="width:11rem;" class="ml-2"src="../assets/img/logoRecNew.png">
             </div>
         </div>
-        <div class="menu-toggle">
-            <i style="font-size:1.8rem;" class="material-icons text-blue-700 ml-4">menu</i>
-        </div>
+
         <div class="spacer">
 
         </div>

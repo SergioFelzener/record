@@ -75,6 +75,9 @@ populateWorkingHours(8, date('Y-m-d', $lastYear), 10, 20, 70);
 populateWorkingHours(9, date('Y-m-d', $lastYear), 30, 40, 30);
 populateWorkingHours(10, date('Y-m-d', $lastYear), 20, 10, 70);
 populateWorkingHours(11, date('Y-m-d', $lastYear), 70, 10, 20);
+populateWorkingHours(12, date('Y-m-d', $lastYear), 70, 10, 20);
+populateWorkingHours(13, date('Y-m-d', $lastYear), 70, 10, 20);
+populateWorkingHours(14, date('Y-m-d', $lastYear), 70, 10, 20);
 
 echo "Tudo certo !";
 // print_r(getdayTemplateByOdds(10, 20, 70));

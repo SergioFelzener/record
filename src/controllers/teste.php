@@ -8,7 +8,7 @@ echo "<br>";
 echo "<hr>";
 echo "<br>";
 
-$user = new User(['name' => 'teste', 'email' => 'teseeee@teste.com']);
+$user = new User(['name' => 'teste', 'email' => 'teseeee@teste.com', 'photo' => '423523.jpg']);
 print_r($user);
 echo "<br>";
 $user->email = 'teste@alterandoemail.com';
@@ -46,6 +46,27 @@ echo "<hr>";
 echo "<br>";
 
 echo "<br>";
+
+$sql_teste_users_select = "SELECT * FROM users";
+$result = Database::getResultFromQuery($sql_teste_users_select);
+
+echo "<hr>";
+echo "<br>";
+
+echo "<br>";
+
+
+print_r(User::get([], 'photo'));
+
+echo "<hr>";
+echo "<br>";
+
+echo "<br>";
+while($row = $result->fetch_assoc()){ 
+    print_r($row);
+    echo "<br>";
+    echo "<hr>";
+}
 echo "FIM!"
 
 

@@ -135,7 +135,7 @@ class Model
     {
         $sql = '';
         if (count($filters) > 0) {
-            $sql .= " WHERE 1 = 1";
+            $sql .= " WHERE 1 = 1"; // sempre será verdadeiro consulta para concatenar o AND
             foreach ($filters as $column => $value) {
                 if ($column == 'raw') {
                     $sql .= " AND {$value}";
@@ -147,6 +147,7 @@ class Model
         return $sql;
     }
 
+    //tratando o $value para colocar aspas entre as strings
     private static function getFormatedValue($value)
     {
         if (is_null($value)) {

@@ -11,6 +11,7 @@ class User extends Model {
         'start_date', 
         'end_date', 
         'is_admin',
+        'photo'
     ];
 
     public static function getActiveUsersCount() { 
@@ -20,6 +21,7 @@ class User extends Model {
     public function insert() { 
 
         $this->validate();
+        if(!$this->photo) $this->photo = null;
         $this->is_admin = $this->is_admin ? 1 : 0; 
         if(!$this->end_date) $this->end_date = null;
         $this->password = password_hash($this->password, PASSWORD_DEFAULT);
@@ -71,6 +73,10 @@ class User extends Model {
             $errors['password'] = 'As senhas não são iguais.';
             $errors['confirm_password'] = 'As senhas não são iguais.';
         }
+
+        // if(!$this->photo) { 
+        //     $errors['photo'] = "Precisa enviar a imagem";
+        // }
 
         if(count($errors) > 0) {
             throw new ValidationException($errors);

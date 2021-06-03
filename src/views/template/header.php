@@ -34,7 +34,11 @@
         <div class="dropdown mr-8">
             <div class="dropdown-button">
                 <!-- <i class="material-icons mr-8">notifications_active</i> -->
-                <img class="avatar" src="<?= "http://www.gravatar.com/avatar.php?gravatar_id=" . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user" class="src">
+                <?php if ($_SESSION['user']->photo) : ?>
+                    <img class="avatar" src="assets/uploads/<?= $_SESSION['user']->photo?>" <?= md5(strtolower(trim($_SESSION['user']->email))) ?> alt="user" class="src">
+                <?php else : ?>
+                    <img class="avatar" src="assets/img/user_sem_foto.png" <?= md5(strtolower(trim($_SESSION['user']->email))) ?> alt="user" class="src">
+                <?php endif ?>
                 <span class="ml-3 text-black">
                     <?= $_SESSION['user']->name ?>
                 </span>

@@ -101,7 +101,6 @@
             </a>
         </div>
     </div>
-    <!-- <?php if ($user->is_admin) : ?> -->
     <form class="form-group mt-8" action="record.php" method="POST">
         <div class="input-group no-border ml-4">
             <input class="border border-gray-400 rounded-md px-2 shadow-md" type="time" step="1" name="forcedTime" placeholder="informe o horário para simular">
@@ -113,5 +112,4 @@
             <p class="border border-black bg-gray-100 shadow-lg font-sans text-sm rounded-lg px-2 w-1/4 text-red-500" style="font-size:10px;">OBS: Simulação de ponto para testes / ou registro de ponto em horário diferente do atual.</p>
         </div>
     </form>
-    <!-- <?php endif ?> -->
 </main>

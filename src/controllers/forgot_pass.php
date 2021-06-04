@@ -8,6 +8,7 @@ if (count($_POST) > 0) {
     // print_r($_POST);
     try {
         $forgot = new ForgotPass($_POST);
+        // print_r($forgot);
         
         if ($forgot) {
             $user = $forgot->checkForgot();

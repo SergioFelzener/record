@@ -25,8 +25,13 @@
                 <?php include(TEMPLATE_PATH . '/messages.php') ?>
                 <div class="form-group">
                     <label for="email">Informe seu E-Mail : </label> <!-- Passando o caminho correto caso nao passe o $_POST no metodo loadView('name da view', $_POST['email']) para manter o valor do email salvo na tela com o Value-->
-                    <input type="email" id="email" name="email" class="form-control <?= $errors['email'] ? 'is-invalid' : '' ?>" value="<?= $email ?> " placeholder="nome@record.com.br" autofocus>
+                    <input type="email" id="email" name="email" class="form-control <?= $errors['email'] ? 'is-invalid' : '' ?>" value="<?= $email ?> " autofocus>
                     <div class="invalid-feedback"><?= $errors['email'] ?></div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Informe seu Nome : </label> <!-- Passando o caminho correto caso nao passe o $_POST no metodo loadView('name da view', $_POST['email']) para manter o valor do email salvo na tela com o Value-->
+                    <input type="text" id="name" name="name" class="form-control <?= $errors['name'] ? 'is-invalid' : '' ?>" value="<?= $name ?> " autofocus>
+                    <div class="invalid-feedback"><?= $errors['name'] ?></div>
                 </div>
             </div>
             <div class="card-footer bg-gray-100">

@@ -11,6 +11,10 @@ class ForgotPass extends Model
             $errors['email'] = 'E-Mail é um campo obrigatório';
         }
 
+        if (!$this->name) {
+            $errors['name'] = 'Nome é um campo obrigatório';
+        }
+
         if (count($errors) > 0) {
             throw new ValidationException($errors);
         }
@@ -25,6 +29,7 @@ class ForgotPass extends Model
         }
 
         if ($user->email) {
+        
             $token = sha1($user->id . $user->password);
             $sim = "Existe email";
             echo "<br>";
@@ -47,6 +52,7 @@ class ForgotPass extends Model
     {
         $this->validate();
         $user = User::getOne(['email' => $this->email]);
+        
         // print_r($user);
         $this->generateTokenAccess($user);
     }

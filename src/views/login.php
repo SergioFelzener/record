@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/fav.png" />
     <title>Record - Time to Clock In</title>
 </head>
 

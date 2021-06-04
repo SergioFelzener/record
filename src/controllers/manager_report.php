@@ -18,5 +18,5 @@ loadTemplateView('manager_report', [
     'activeUsersCount' => $activeUsersCount,
     'absentUsers' => $absentUsers,
     'hoursInMonth' => $hoursInMonth,
-    'notActive' => $notActive,
+    'notActive' => $notActive
 ]);

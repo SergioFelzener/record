@@ -67,7 +67,8 @@
                     <thead class="bg-blue-400">
                         <tr class="text-white text-left">
                             <th class="font-semibold text-sm uppercase px-6 py-4">
-                                Nome do Funcionário
+                                Nome do Funcionário 
+                                <p class="font-light flex text-sm text-red-200 ">Lista de funcionários que ainda não registraram o ponto no dia de hoje</p>
                             </th>
                         </tr>
                     </thead>
@@ -77,11 +78,11 @@
                                 <td class="px-6 py-4">
                                     <div class="flex items-center space-x-3">
                                         <div class="inline-flex w-10 h-10">
-                                            <img class='w-10 h-10 object-cover rounded-full' alt='User avatar' src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60">
+                                            <img class='w-10 h-10 object-cover rounded-full' src="assets/img/user_sem_foto.png" alt="foto do usuário">
                                         </div>
                                         <div>
                                             <p class="">
-                                                <?= $name ?>
+                                                <?= $name ?> 
                                             </p>
                                         </div>
                                     </div>

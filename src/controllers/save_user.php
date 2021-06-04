@@ -27,9 +27,9 @@ if ($photo) {
         $newName = rand() . '.' . $extension;
         move_uploaded_file($_FILES['photo']['tmp_name'], 'assets/uploads/' . $newName);
         // $dbUser['photo'] = $newName;
-    } else {
-        addErrorMsg("Tipo de arquivo não permitido");
     }
+} else {
+    addErrorMsg("Tipo de arquivo não permitido");
 }
 
 if (count($_POST) === 0 && isset($_GET['update'])) {

@@ -49,6 +49,12 @@
                         Configuração
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="flex text-sm font-medium text-white bg-blue-700  hover:bg-blue-50 hover:text-blue-700 rounded-lg p-2" href="about.php">
+                        <i class="material-icons mr-2">help</i>
+                        Sobre
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>

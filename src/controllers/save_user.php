@@ -29,7 +29,7 @@ if ($photo) {
         // $dbUser['photo'] = $newName;
     }
 } else {
-    addErrorMsg("Tipo de arquivo não permitido");
+    // addErrorMsg("Tipo de arquivo não permitido");
 }
 
 if (count($_POST) === 0 && isset($_GET['update'])) {

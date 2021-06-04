@@ -109,7 +109,7 @@
             </button>
         </div>
         <div class="flex">
-            <p class="justify-items-center border border-black bg-gray-100 shadow-lg font-sans text-sm rounded-lg px-2 w-1/4 text-red-500" style="font-size:10px;">OBS: Simulação de ponto para testes / ou registro de ponto em horário diferente do atual.</p>
+            <p class="justify-items-center border border-red-400 bg-gray-100 shadow-lg font-sans text-sm rounded-lg px-2 w-1/4 text-red-500" style="font-size:10px;">OBS: Simulação de ponto para testes / ou registro de ponto em horário diferente do atual.</p>
         </div>
     </form>
 </main>

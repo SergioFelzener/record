@@ -134,74 +134,71 @@
                                                                  previstas no presente documento, conforme o disposto no inciso 
                                                                 <a href="https://www.jusbrasil.com.br/topicos/200399061/inciso-i-do-artigo-15-da-lei-n-13709-de-14-de-agosto-de-2018" class="cite hover:text-blue-500" rel="200399061" title="Inciso I do Artigo 15 da Lei nº 13.709 de 14 de Agosto de 2018">I(link para Inciso)</a> do artigo 
                                                                 <a href="https://www.jusbrasil.com.br/topicos/200399064/artigo-15-da-lei-n-13709-de-14-de-agosto-de-2018" class="cite hover:text-blue-500" rel="200399064" title="Artigo 15 da Lei nº 13.709 de 14 de Agosto de 2018">15</a> da Lei 
-                                                                <a href="https://www.jusbrasil.com.br/legislacao/612902269/lei-13709-18" class="cite hover:text-blue-500" rel="200399658" title="LEI Nº 13.709, DE 14 DE AGOSTO DE 2018.">13.709</a>
+                                                                <a href="https://www.jusbrasil.com.br/legislacao/612902269/lei-13709-18" class="cite hover:text-blue-500" rel="200399658" title="LEI Nº 13.709, DE 14 DE AGOSTO DE 2018.">13.709</a>/18.
                                 </p>
-                                <p class="mt-2 text-gray-600">Bem-estar do usuário e visitante: aprimorar o produto 
-                                                                e/ou serviço oferecido, facilitar, agilizar e cumprir 
-                                                                os compromissos estabelecidos entre o usuário e a empresa,
-                                                                 melhorar a experiência dos usuários e fornecer funcionalidades 
-                                                                 específicas a depender das características básicas do usuário.
+                                <p class="mt-2 text-gray-600">Os dados podem ser removidos ou anonimizados a pedido do usuário, excetuando os 
+                                                                casos em que a lei oferecer outro tratamento.
                                 </p>
-                                <p class="mt-2 text-gray-600">Melhorias da plataforma: compreender como o usuário utiliza os 
-                                                                serviços da plataforma, para ajudar no desenvolvimento de 
-                                                                negócios e técnicas.
+                                <p class="mt-2 text-gray-600">Ainda, os dados pessoais dos usuários apenas podem ser conservados após o término 
+                                                                de seu tratamento nas seguintes hipóteses previstas no artigo 16 da referida lei: 
                                 </p>
                                 <p class="mt-2 text-gray-600">Comercial: os dados são usados para personalizar o conteúdo 
                                                                 oferecido e gerar subsídio à plataforma para a melhora da qualidade 
-                                                                no funcionamento dos serviços.
-                                </p>
-                                <p class="mt-2 text-gray-600">Previsão do perfil do usuário: tratamento automatizados de dados 
-                                                                pessoais para avaliar o uso na plataforma.
-                                </p>
-                                <p class="mt-2 text-gray-600">Dados de cadastro: para permitir o acesso do usuário a determinados 
-                                                                conteúdos da plataforma, exclusivo para usuários cadastrados
-                                </p>
-                                <p class="mt-2 text-gray-600">Dados de contrato: conferir às partes segurança jurídica e facilitar 
-                                                                a conclusão do negócio.
-                                </p>
-                                <p class="mt-2 text-gray-600">O tratamento de dados pessoais para finalidades não previstas nesta 
-                                                                Política de Privacidade somente ocorrerá mediante comunicação prévia 
-                                                                ao usuário, de modo que os direitos e obrigações aqui previstos 
-                                                                permanecem aplicáveis.
-                                </p>
-                                
+                                                                no funcionamento dos serviços.<br>
+                                                                I - cumprimento de obrigação legal ou regulatória pelo controlador;<br>
+                                                                II - estudo por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;<br>
+                                                                III - transferência a terceiro, desde que respeitados os requisitos de tratamento de dados dispostos nesta Lei;<br>
+                                                                IV - uso exclusivo do controlador, vedado seu acesso por terceiro, e desde que anonimizados os dados.<br>
+                                </p>   
                             </div>
                             <div class="flex items-center justify-between">
-                                <h2 class="text-xl mt-4 font-bold text-gray-700 md:text-2xl">SEÇÃO 3 - PARA QUE FINALIDADES UTILIZAMOS OS DADOS PESSOAIS DO USUÁRIO E VISITANTE</h2>
+                                <h2 class="text-xl mt-4 font-bold text-gray-700 md:text-2xl">SEÇÃO 5 - SEGURANÇA DOS DADOS PESSOAIS ARMAZENADOS</h2>
                             </div>
                             <div class="mt-2">
-                                <p class="mt-2 text-gray-600">Os dados pessoais do usuário e do visitante coletados 
-                                                                e armazenados pela plataforma <strong>RECORD - TIME TO CLOCK IN </strong> tem por finalidade:
+                                <p class="mt-2 text-gray-600">A plataforma se compromete a aplicar as medidas técnicas e organizativas aptas a 
+                                                                proteger os dados pessoais de acessos não autorizados e de situações de destruição, 
+                                                                perda, alteração, comunicação ou difusão de tais dados. 
                                 </p>
-                                <p class="mt-2 text-gray-600">Bem-estar do usuário e visitante: aprimorar o produto 
-                                                                e/ou serviço oferecido, facilitar, agilizar e cumprir 
-                                                                os compromissos estabelecidos entre o usuário e a empresa,
-                                                                 melhorar a experiência dos usuários e fornecer funcionalidades 
-                                                                 específicas a depender das características básicas do usuário.
+                                <p class="mt-2 text-gray-600">Os dados relativas a cartões de crédito são criptografados usando a tecnologia 
+                                                                "secure socket layer" (SSL) que garante a transmissão de dados de forma segura 
+                                                                e confidencial, de modo que a transmissão dos dados entre o servidor e o usuário 
+                                                                ocorre de maneira cifrada e encriptada.
                                 </p>
-                                <p class="mt-2 text-gray-600">Melhorias da plataforma: compreender como o usuário utiliza os 
-                                                                serviços da plataforma, para ajudar no desenvolvimento de 
-                                                                negócios e técnicas.
+                                <p class="mt-2 text-gray-600">A plataforma não se exime de responsabilidade por culpa exclusiva de terceiro, 
+                                                                como em caso de ataque de hackers ou crackers, ou culpa exclusiva do usuário, 
+                                                                como no caso em que ele mesmo transfere seus dados a terceiros. O site se 
+                                                                compromete a comunicar o usuário em caso de alguma violação de segurança dos 
+                                                                seus dados pessoais.
                                 </p>
-                                <p class="mt-2 text-gray-600">Comercial: os dados são usados para personalizar o conteúdo 
-                                                                oferecido e gerar subsídio à plataforma para a melhora da qualidade 
-                                                                no funcionamento dos serviços.
+                                <p class="mt-2 text-gray-600">Os dados pessoais armazenados são tratados com confidencialidade, dentro dos 
+                                                                limites legais. No entanto, podemos divulgar suas informações pessoais caso 
+                                                                sejamos obrigados pela lei para fazê-lo ou se você violar nossos Termos de Serviço.
+                                </p>    
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <h2 class="text-xl mt-4 font-bold text-gray-700 md:text-2xl">SEÇÃO 6 - COMPARTILHAMENTO DOS DADOS</h2>
+                            </div>
+                            <div class="mt-2">
+                                <p class="mt-2 text-gray-600">O compartilhamento de dados do usuário ocorre apenas com os dados referentes
+                                                                 a publicações realizadas pelo próprio usuário, tais ações são compartilhadas
+                                                                 publicamente com os outros usuários. 
                                 </p>
-                                <p class="mt-2 text-gray-600">Previsão do perfil do usuário: tratamento automatizados de dados 
-                                                                pessoais para avaliar o uso na plataforma.
+                                <p class="mt-2 text-gray-600">Os dados do perfil do usuário são compartilhados publicamente em sistemas de 
+                                                                busca e dentro da plataforma, sendo permitido ao usuário modificar tal 
+                                                                configuração para que seu perfil não apareça nos resultados de busca de tais 
+                                                                ferramentas.
+                                </p>   
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <h2 class="text-xl mt-4 font-bold text-gray-700 md:text-2xl">SEÇÃO 6 - OS DADOS PESSOAIS ARMAZENADOS SERÃO TRANSFERIDOS A TERCEIROS</h2>
+                            </div>
+                            <div class="mt-2">
+                                <p class="mt-2 text-gray-600">Os dados pessoais (não) podem ser compartilhados (com terceiros) (com as seguintes pessoas (físicas) 
+                                                                (jurídicas): _________, CPF/CNPJ _________. 
                                 </p>
-                                <p class="mt-2 text-gray-600">Dados de cadastro: para permitir o acesso do usuário a determinados 
-                                                                conteúdos da plataforma, exclusivo para usuários cadastrados
-                                </p>
-                                <p class="mt-2 text-gray-600">Dados de contrato: conferir às partes segurança jurídica e facilitar 
-                                                                a conclusão do negócio.
-                                </p>
-                                <p class="mt-2 text-gray-600">O tratamento de dados pessoais para finalidades não previstas nesta 
-                                                                Política de Privacidade somente ocorrerá mediante comunicação prévia 
-                                                                ao usuário, de modo que os direitos e obrigações aqui previstos 
-                                                                permanecem aplicáveis.
-                                </p>
-                                
+                                <p class="mt-2 text-gray-600">Os terceiros indicados recebem os dados na medida do necessário para permitir que eles realizem os 
+                                                                serviços contratados.
+                                </p>   
                             </div>
                             <div class="flex items-center justify-between mt-4"><a href="#" class="text-blue-500 hover:underline">Read more</a>
                                 <div><a href="#" class="flex items-center"><img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block">

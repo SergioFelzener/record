@@ -104,12 +104,9 @@
     <form class="form-group mt-8" action="record.php" method="POST">
         <div class="input-group no-border ml-4">
             <input class="border border-gray-400 rounded-md px-2 shadow-md" type="time" step="1" name="forcedTime" placeholder="informe o horário para simular">
-            <button class="bg-transparent shadow-md mb-4 px-1 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 rounded-lg ml-2 rounded-mdpx-2 py-1 border border-gray-400 hover:border-blue-400">
+            <button class="bg-transparent shadow-md mb-4 px-1 text-sm font-medium bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 rounded-lg ml-2 rounded-mdpx-2 py-1 border border-gray-400 hover:border-blue-400" title="Simulação de ponto para testes / ou registro de ponto em horário diferente do atual.">
                 Simular Ponto
             </button>
-        </div>
-        <div class="flex">
-            <p class="justify-items-center border border-red-400 bg-gray-100 shadow-lg font-sans text-sm rounded-lg px-2 w-1/4 text-red-500" style="font-size:10px;">OBS: Simulação de ponto para testes / ou registro de ponto em horário diferente do atual.</p>
         </div>
     </form>
 </main>

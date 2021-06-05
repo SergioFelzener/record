@@ -23,6 +23,10 @@ Termine com um exemplo de como obter dados do sistema ou como usá-los para uma 
 
 ## 📦 Desenvolvimento
 
+Linguagem PHP estruturada em MVC.
+Programação Orientada a Objetos.
+
+<img width="12%" src="https://www.vectorlogo.zone/logos/php/php-vertical.svg">
 
 
 ## 🛠️ Construído com

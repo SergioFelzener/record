@@ -5,7 +5,7 @@ Projeto Integrador V - 5 Semestre TSI - SENAC
 O sistema foi desenvolvido durante o último semestre de Tecnologia de Sistemas para Internet do SENAC, como 
 projeto de finalização do curso. O Sistema foi criado para suprir as necessidades que empresas tem para controlar o Registro de Ponto de seus funcionários e colaboradores, com um canal direto de notificações com os Administradores e controle de carga horária de trablaho com relatórios e estatísticas. 
 
-![Cover](https://github.com/SergioFelzener/record/public/assets/loginpage.png)
+![Cover](https://github.com/SergioFelzener/record/blob/main/public/assets/img/loginpage.png)
 
 ### 📋 Pré-requisitos
 
@@ -19,39 +19,7 @@ Dar exemplos
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
-
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
 
 ## 📦 Desenvolvimento
 
@@ -89,10 +57,8 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 ## 🎁 Expressões de gratidão
 
 * Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
 * Obrigado publicamente 🤓.
-* etc.
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ com ❤️ por [Sergio Felzener](https://github.com/SergioFelzener) 😊

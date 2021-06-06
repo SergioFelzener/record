@@ -17,8 +17,6 @@ Programação Orientada a Objetos.
 
 ## 🛠️ Requisitos e Ferramentas
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 * [LINUX](https://ubuntu.com) - Servidor de hospedagem Linux Ubuntu 18.04.
 * [APACHE](https://httpd.apache.org) - HTTP Server Apache2.
 * [MYSQL](https://www.mysql.com) - Banco de Dados MySQL.
@@ -26,22 +24,13 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [TAILWIND](https://tailwindcss.com) - Biblioteca de classes utilitárias CSS.
 * [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto.
 
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Foi Utilizado [GitHub](http://github.com) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+* Sergio Felzener - Full Stack Developer - *Projeto Integrador Senac* - [SergioFelzener](https://github.com/SergioFelzener)
 
 ## 📄 Licença
 

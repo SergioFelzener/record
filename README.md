@@ -17,12 +17,18 @@ Programação Orientada a Objetos.
 
 ## 🛠️ Requisitos e Ferramentas
 
+
+1- Apache 2.0.63
+2 - PHP 8.0
+3 - MySQL Server Ver 14.14 Distrib 5.7.34
+
+
 * [LINUX](https://ubuntu.com) - Servidor de hospedagem Linux Ubuntu 18.04.
 * [APACHE](https://httpd.apache.org) - HTTP Server Apache2.
 * [MYSQL](https://www.mysql.com) - Banco de Dados MySQL.
 * [PHP](https://www.php.net) - PHP 8.0.
 * [TAILWIND](https://tailwindcss.com) - Biblioteca de classes utilitárias CSS.
-* [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto.
+* [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto. ou pode rodar em localhost
 
 ## 📌 Versão
 
@@ -37,6 +43,9 @@ Foi Utilizado [GitHub](http://github.com) para controle de versão. Para as vers
 Este projeto está sob a licença (Copyright &copy; 2021 by Sergio Felzener) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
 ## 🎁 Expressões de gratidão
+
+Agradeço a todos que direta ou indiretamente colaboraram com a criação e desenvolvimento do projeto final 
+de conclusão de curso, a todos os professores do SENAC a minha família e amigos 
 
 * Conte a outras pessoas sobre este projeto 📢
 * Obrigado publicamente 🤓.

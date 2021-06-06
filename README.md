@@ -45,7 +45,7 @@ Este projeto está sob a licença (Copyright &copy; 2021 by Sergio Felzener) - v
 ## 🎁 Expressões de gratidão
 
 Agradeço a todos que direta ou indiretamente colaboraram com a criação e desenvolvimento do projeto final 
-de conclusão de curso, a todos os professores do SENAC a minha família e amigos 
+de conclusão de curso. 
 
 * Conte a outras pessoas sobre este projeto 📢
 * Obrigado publicamente 🤓.

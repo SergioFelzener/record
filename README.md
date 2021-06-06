@@ -33,9 +33,12 @@ Programação Orientada a Objetos.
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [PHP](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [LINUX](https://ubuntu.com) - Servidor de hospedagem Linux Ubuntu 18.04.
+* [APACHE](https://httpd.apache.org) - HTTP Server Apache2.
+* [MYSQL](https://www.mysql.com) - Banco de Dados MySQL.
+* [PHP](https://www.php.net) - PHP 8.0.
+* [TAILWIND](https://tailwindcss.com) - Biblioteca de classes utilitárias CSS.
+* [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto.
 
 ## 🖇️ Colaborando
 

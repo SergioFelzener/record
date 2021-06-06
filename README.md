@@ -18,9 +18,9 @@ Programação Orientada a Objetos.
 ## 🛠️ Requisitos e Ferramentas
 
 
-1- Apache 2.0.63
-2 - PHP 8.0
-3 - MySQL Server Ver 14.14 Distrib 5.7.34
+1 - Apache 2.0.63\
+2 - PHP 8.0\
+3 - MySQL Server Ver 14.14 Distrib 5.7.34\
 
 
 * [LINUX](https://ubuntu.com) - Servidor de hospedagem Linux Ubuntu 18.04.

@@ -34,7 +34,7 @@ Foi Utilizado [GitHub](http://github.com) para controle de versão. Para as vers
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (Copyright &copy; 2021 by Sergio Felzener) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
 ## 🎁 Expressões de gratidão
 

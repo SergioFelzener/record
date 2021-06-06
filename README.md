@@ -7,20 +7,6 @@ projeto de finalização do curso. O Sistema foi criado para suprir as necessida
 
 ![Cover](https://github.com/SergioFelzener/record/blob/main/public/assets/img/loginpage.png)
 
-### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
-
-### 🔧 Instalação
-
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
 ## 📦 Desenvolvimento
 
 Linguagem PHP estruturada em MVC.
@@ -29,7 +15,7 @@ Programação Orientada a Objetos.
 <img width="12%" src="https://www.vectorlogo.zone/logos/php/php-vertical.svg">
 
 
-## 🛠️ Construído com
+## 🛠️ Requisitos e Ferramentas
 
 Mencione as ferramentas que você usou para criar seu projeto
 

@@ -14,7 +14,7 @@ Programação Orientada a Objetos.
 
 <img width="12%" src="https://www.vectorlogo.zone/logos/php/php-vertical.svg">\
 <img width="16%" src="https://www.vectorlogo.zone/logos/apache/apache-official.svg">\
-<img width="16%" src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg">\
+<img width="16%" src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg">
 
 
 ## 🛠️ Requisitos e Ferramentas
@@ -31,6 +31,8 @@ Programação Orientada a Objetos.
 * [PHP](https://www.php.net) - PHP 8.0.
 * [TAILWIND](https://tailwindcss.com) - Biblioteca de classes utilitárias CSS.
 * [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto. ou pode rodar em localhost
+
+## :crystal_ball: Instalação 
 
 ## 📌 Versão
 

@@ -12,7 +12,8 @@ projeto de finalização do curso. O Sistema foi criado para suprir as necessida
 Linguagem PHP estruturada em MVC.
 Programação Orientada a Objetos.
 
-<img width="12%" src="https://www.vectorlogo.zone/logos/php/php-vertical.svg">
+<img width="12%" src="https://www.vectorlogo.zone/logos/php/php-vertical.svg">\
+<img width="12%" src="https://www.vectorlogo.zone/logos/apache/apache-official.svg">
 
 
 ## 🛠️ Requisitos e Ferramentas

@@ -47,11 +47,12 @@ $ route : public/
 $ https://tailwindcss.com
 
 ### Instale o MySQL 
- /extras verifique arquivo db.sql\
+ /extras verifique arquivo db.sql
+
 
 ### Conexão com DB
 ```bash
-$ /src/env.example.ini\
+$ /src/env.example.ini
 
 $ cp ../src/env.example.ini ../src/env.ini
 

@@ -13,7 +13,8 @@ Linguagem PHP estruturada em MVC.
 Programação Orientada a Objetos.
 
 <img width="12%" src="https://www.vectorlogo.zone/logos/php/php-vertical.svg">\
-<img width="12%" src="https://www.vectorlogo.zone/logos/apache/apache-official.svg">
+<img width="16%" src="https://www.vectorlogo.zone/logos/apache/apache-official.svg">\
+<img width="16%" src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg">\
 
 
 ## 🛠️ Requisitos e Ferramentas

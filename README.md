@@ -40,7 +40,7 @@ $ git clone git@github.com/SergioFelzener/record.git
 
 ### Configure o sevidor Apache / Xampp / Mamp
 ```bash
-
+route : public/
 ```
 
 # Instale o TailWind CSS 

@@ -33,18 +33,23 @@ Programação Orientada a Objetos.
 * [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto. ou pode rodar em localhost
 
 ## :crystal_ball: Instalação 
-
 # Clone este repositório
+```bash
 $ git clone git@github.com/SergioFelzener/record.git
 
-# Configure o sevidor Apache / Xampp / Mamp
-$ Configure as rotas do seu servidor apache para iniciar na pasta public/
 
+# Configure o sevidor Apache / Xampp / Mamp
+
+```bash
+docker-compose exec php vendor/bin/phpunit
+```
 
 # Instale o TailWind CSS 
 $ https://tailwindcss.com
 
 # Instale o MySQL 
+em /extras verifique arquivo db.sql
+configure 
 
 
 

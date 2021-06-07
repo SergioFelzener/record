@@ -43,12 +43,21 @@ $ git clone git@github.com/SergioFelzener/record.git
 $ route : public/
 ```
 
-# Instale o TailWind CSS 
+### Instale o TailWind CSS 
 $ https://tailwindcss.com
 
-# Instale o MySQL 
-em /extras verifique arquivo db.sql
-configure 
+### Instale o MySQL 
+ /extras verifique arquivo db.sql\
+
+### Conexão com DB
+```bash
+$ /src/env.example.ini\
+
+$ cp ../src/env.example.ini ../src/env.ini
+
+````
+
+
 
 
 

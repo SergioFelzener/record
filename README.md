@@ -33,12 +33,12 @@ Programação Orientada a Objetos.
 * [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto. ou pode rodar em localhost
 
 ## :crystal_ball: Instalação 
-## Clone este repositório
+### Clone este repositório
 ```bash
 $ git clone git@github.com/SergioFelzener/record.git
 ```
 
-## Configure o sevidor Apache / Xampp / Mamp
+### Configure o sevidor Apache / Xampp / Mamp
 ```bash
 
 ```

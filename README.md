@@ -69,7 +69,7 @@ Foi Utilizado [GitHub](http://github.com) para controle de versão. Para as vers
 
 ## ✒️ Autores
 
-* Sergio Felzener - Full Stack Developer - *Projeto Integrador Senac* - [SergioFelzener](https://github.com/SergioFelzener)
+* Sergio Felzener - Full Stack Developer - *Projeto Integrador V Senac* - [SergioFelzener](https://github.com/SergioFelzener)
 
 ## 📄 Licença
 

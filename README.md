@@ -33,23 +33,32 @@ Programação Orientada a Objetos.
 * [AZURE](https://azure.microsoft.com/pt-br/) - Plataforma Cloud de Hospedagem do projeto. ou pode rodar em localhost
 
 ## :crystal_ball: Instalação 
-# Clone este repositório
+### Clone este repositório
 ```bash
 $ git clone git@github.com/SergioFelzener/record.git
-
-
-# Configure o sevidor Apache / Xampp / Mamp
-
-```bash
-docker-compose exec php vendor/bin/phpunit
 ```
 
-# Instale o TailWind CSS 
+### Configure o sevidor Apache / Xampp / Mamp
+```bash
+$ route : public/
+```
+
+### Instale o TailWind CSS 
 $ https://tailwindcss.com
 
-# Instale o MySQL 
-em /extras verifique arquivo db.sql
-configure 
+### Instale o MySQL 
+ /extras verifique arquivo db.sql
+
+
+### Conexão com DB
+```bash
+$ /src/env.example.ini
+
+$ cp ../src/env.example.ini ../src/env.ini
+
+````
+
+
 
 
 
@@ -60,7 +69,7 @@ Foi Utilizado [GitHub](http://github.com) para controle de versão. Para as vers
 
 ## ✒️ Autores
 
-* Sergio Felzener - Full Stack Developer - *Projeto Integrador Senac* - [SergioFelzener](https://github.com/SergioFelzener)
+* Sergio Felzener - Full Stack Developer - *Projeto Integrador V Senac* - [SergioFelzener](https://github.com/SergioFelzener)
 
 ## 📄 Licença
 

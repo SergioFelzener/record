@@ -36,11 +36,11 @@ Programação Orientada a Objetos.
 # Clone este repositório
 ```bash
 $ git clone git@github.com/SergioFelzener/record.git
+```
 
 
 # Configure o sevidor Apache / Xampp / Mamp
 
-```bash
 docker-compose exec php vendor/bin/phpunit
 ```
 

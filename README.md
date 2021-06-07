@@ -34,6 +34,21 @@ Programação Orientada a Objetos.
 
 ## :crystal_ball: Instalação 
 
+# Clone este repositório
+$ git clone git@github.com/SergioFelzener/record.git
+
+# Configure o sevidor Apache / Xampp / Mamp
+$ Configure as rotas do seu servidor apache para iniciar na pasta public/
+
+
+# Instale o TailWind CSS 
+$ https://tailwindcss.com
+
+# Instale o MySQL 
+
+
+
+
 ## 📌 Versão
 
 Foi Utilizado [GitHub](http://github.com) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 

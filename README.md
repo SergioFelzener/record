@@ -3,7 +3,7 @@
 Projeto Integrador V - 5 Semestre TSI - SENAC
 
 O sistema foi desenvolvido durante o último semestre de Tecnologia de Sistemas para Internet do SENAC, como 
-projeto de finalização do curso. O Sistema foi criado para suprir as necessidades que empresas tem para controlar o Registro de Ponto de seus funcionários e colaboradores, com um canal direto de notificações com os Administradores e controle de carga horária de trablaho com relatórios e estatísticas. 
+projeto de finalização do curso. O Sistema foi criado para suprir as necessidades que empresas tem para controlar o Registro de Ponto de seus funcionários e colaboradores, com um canal direto de notificações com os Administradores e controle de carga horária de trabalho com relatórios e estatísticas. 
 
 ![Cover](https://github.com/SergioFelzener/record/blob/main/public/assets/img/loginpage.png)
 
